@@ -1,0 +1,274 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1e1e1e;
+  padding: 20px 0;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 26px;
+  color: #00bcd4;
+}
+
+nav a {
+  color: #f1f1f1;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00bcd4;
+}
+
+/* Section General */
+section {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Downloads Section */
+.downloads h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00bcd4;
+}
+
+.game-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.game-card img {
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.game-info {
+  flex: 1;
+}
+
+.game-info h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ff9800;
+}
+
+.download-list {
+  list-style: none;
+  padding: 0;
+}
+
+.download-list li {
+  margin-bottom: 12px;
+}
+
+.download-list a {
+  display: inline-block;
+  background: #00bcd4;
+  color: #121212;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.download-list a:hover {
+  background: #0097a7;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Installation Guide */
+.install-guide {
+  margin-top: 30px;
+}
+
+.install-guide h2 {
+  margin-bottom: 15px;
+  color: #ff9800;
+}
+
+.install-guide ol {
+  padding-left: 20px;
+}
+
+.install-guide li {
+  margin-bottom: 10px;
+}
+
+.install-guide p {
+  margin-top: 15px;
+  font-style: italic;
+  color: #ccc;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d0d0d;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1a1a1a;
+  padding: 20px 0;
+  border-bottom: 2px solid #00bcd4;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #00bcd4;
+  font-size: 28px;
+}
+
+nav a {
+  color: #f5f5f5;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00bcd4;
+}
+
+/* Download Section */
+.downloads {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.downloads h2 {
+  text-align: center;
+  color: #00bcd4;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.game-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.game-card img {
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.game-info {
+  flex: 1;
+}
+
+.game-info h3 {
+  font-size: 22px;
+  color: #ff9800;
+  margin-bottom: 10px;
+}
+
+/* Download List */
+.download-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.download-list li {
+  margin-bottom: 12px;
+}
+
+.download-list a {
+  display: inline-block;
+  background: #00bcd4;
+  color: #121212;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.download-list a:hover {
+  background: #0097a7;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Installation Guide */
+.install-guide {
+  margin-top: 25px;
+}
+
+.install-guide h2 {
+  color: #ff9800;
+  margin-bottom: 12px;
+}
+
+.install-guide ol {
+  padding-left: 20px;
+}
+
+.install-guide li {
+  margin-bottom: 10px;
+}
+
+.install-guide p {
+  margin-top: 15px;
+  font-style: italic;
+  color: #ccc;
+}

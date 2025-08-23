@@ -1,0 +1,134 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1f1f1f;
+  padding: 15px 0;
+  border-bottom: 2px solid #3a3a3a;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #00ff88;
+  font-size: 1.8rem;
+}
+
+header nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover,
+header nav a.active {
+  color: #00ff88;
+}
+
+/* Contact Section */
+.contact {
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1c1c1c;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #00ff88;
+}
+
+.contact .intro {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #bbb;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #00ccff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  background: #333;
+  border: 1px solid #00ff88;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #00ff88;
+  color: #121212;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #00cc6a;
+  transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  border-top: 2px solid #3a3a3a;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #888;
+}
