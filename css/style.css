@@ -15,7 +15,7 @@ body {
 /* Header */
 header {
   background: #111;
-  color: #0f0; /* Green accent for logo/title */
+  color: #00ff88; /* Green accent for logo/title */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,7 @@ header {
 .logo {
   font-size: 1.4rem;
   font-weight: bold;
-  color: #0f0; /* Green */
+  color: #00ff88; /* Green */
 }
 
 nav ul {
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #0f0; /* Green hover */
+  color: #00ff88; /* Green hover */
 }
 
 /* Hero */
@@ -54,12 +54,12 @@ nav ul li a:hover {
   padding: 60px 20px;
   background: linear-gradient(to right, #0d0d0d, #1a1a1a);
   color: #fff;
-  border-bottom: 2px solid #0f0;
+  border-bottom: 2px solid #00ff88;
 }
 
 .hero h1 {
   font-size: 2.5rem;
-  color: #0f0; /* Green heading */
+  color: #00ff88; /* Green heading */
 }
 
 .hero p {
@@ -85,7 +85,7 @@ nav ul li a:hover {
   text-align: center;
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #0f0; /* Green section title */
+  color: #00ff88; /* Green section title */
 }
 
 .game-grid {
@@ -98,14 +98,14 @@ nav ul li a:hover {
   background: #1e1e1e; /* Dark card */
   border-radius: 10px;
   padding: 15px;
-  box-shadow: 0 2px 6px rgba(0, 255, 0, 0.2); /* Green glow */
+  box-shadow: 0 2px 6px #00cc6a; /* Green glow */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .game-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.4);
+  box-shadow: 0 4px 15px #00cc6a;
 }
 
 .game-card img {
@@ -123,7 +123,7 @@ nav ul li a:hover {
   display: inline-block;
   margin: 5px;
   padding: 10px 15px;
-  background: #0f0; /* Green */
+  background: #00ff88; /* Green */
   color: #121212; /* Dark text */
   text-decoration: none;
   border-radius: 5px;
@@ -133,7 +133,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background: #00cc00;
+  background: #00ff88;
   transform: scale(1.05);
 }
 
