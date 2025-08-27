@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game Details - Gaming Hub</title>
+  <!-- ✅ Go up one level to find css folder -->
   <link rel="stylesheet" href="../css/style_game.css">
 </head>
 <body>
@@ -12,16 +12,20 @@
     <div class="container">
       <h1>Gaming Hub</h1>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="html\categories.html">Categories</a>
-        <a href="#">Contact</a>
+        <!-- ✅ Go up one level to reach homepage -->
+        <a href="../index.html">Home</a>
+        <!-- ✅ categories.html is this file -->
+        <a href="categories.html" class="active">Categories</a>
+        <!-- ✅ link to contact.html inside same folder -->
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <section class="game-details container">
     <h2>Cyberpunk 2077</h2>
-    <img src="images\cyber.jpg" alt="Game Image" class="game-cover">
+    <!-- ✅ Go up one level to find images -->
+    <img src="../images/cyber.jpg" alt="Game Image" class="game-cover">
 
     <p><strong>Description:</strong> This is an awesome game where you explore new worlds and complete exciting missions.</p>
 
@@ -34,7 +38,8 @@
       <li>Storage: 20GB available space</li>
     </ul>
 
-    <a href="html\downloads.html" class="btn">Download Now</a>
+    <!-- ✅ downloads.html is inside same html folder -->
+    <a href="downloads.html" class="btn">Download Now</a>
   </section>
 </body>
 </html>
