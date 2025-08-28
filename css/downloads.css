@@ -14,36 +14,39 @@ body {
 
 /* Header */
 header {
-  background: #1e1e1e;
-  padding: 20px 0;
-  border-bottom: 2px solid #2a2a2a;
-}
-
-header .container {
-  width: 90%;
-  margin: auto;
+  background: #111;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-header h1 {
-  font-size: 26px;
-  color: #00bcd4;
+header .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-nav a {
-  color: #f1f1f1;
-  margin-left: 15px;
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
 }
 
-nav a:hover,
-nav a.active {
-  color: #00bcd4;
+header nav ul li a:hover {
+  color: #00ff88; /* green hover to match your categories page */
 }
+
 
 /* Section General */
 section {
