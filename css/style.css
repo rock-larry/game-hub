@@ -37,7 +37,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #00ff88; /* green links */
+  color:  #fff; /* green links */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
