@@ -38,14 +38,14 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #0f0; /* green links */
+  color: #00ff88; /* green links */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #39ff14; /* brighter green on hover */
+  color: #00ff88; /* brighter green on hover */
 }
 
 /* Responsive for smaller screens */
