@@ -15,7 +15,7 @@ body {
 
 /* Header */
 header {
-  background: #111; /* dark background */
+  background: #111;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,7 @@ header {
 }
 
 header .logo {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -38,60 +38,16 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #00ff88; /* green links */
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #00ff88; /* brighter green on hover */
+  color: #00ff88; /* green hover to match your categories page */
 }
 
-/* Game Details Section */
-.game-details {
-  width: 90%;
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #1c1c1c;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
-}
-
-.game-details h2 {
-  margin-bottom: 20px;
-  color: #00ff88;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.game-cover {
-  display: block;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
-}
-
-.game-details p {
-  margin-bottom: 15px;
-  font-size: 1rem;
-}
-
-.game-details ul {
-  list-style: none;
-  margin-bottom: 20px;
-}
-
-.game-details ul li {
-  background: #2a2a2a;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 0.95rem;
-}
 
 /* Download Button */
 .btn {
