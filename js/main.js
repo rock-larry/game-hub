@@ -1,17 +1,9 @@
-function loadHTML(id, file) {
-  fetch(file)
-    .then(response => {
-      if (!response.ok) throw new Error("Error loading " + file);
-      return response.text();
-    })
-    .then(data => {
-      document.getElementById(id).innerHTML = data;
-    })
-    .catch(error => console.error(error));
-}
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
 
-// Load header & footer automatically
-window.addEventListener("DOMContentLoaded", () => {
-  loadHTML("header", "header.html");
-  loadHTML("footer", "footer.html");
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
 });
