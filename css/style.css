@@ -14,36 +14,37 @@ body {
 
 /* Header */
 header {
-  background: #1f1f1f;
-  padding: 15px 0;
-  border-bottom: 2px solid #3a3a3a;
-}
-
-header .container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+  background: #111; /* dark background */
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-header h1 {
-  color: #00ff88;
-  font-size: 1.8rem;
-  letter-spacing: 1px;
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-header nav a {
-  color: #f1f1f1;
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #00ff88; /* green links */
   text-decoration: none;
-  margin-left: 20px;
-  font-size: 1rem;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
-header nav a:hover {
-  color: #00ff88;
+header nav ul li a:hover {
+  color: #00ff88; /* brighter green on hover */
 }
 
 /* Responsive for smaller screens */
