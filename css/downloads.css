@@ -71,6 +71,9 @@ section {
   gap: 20px;
   align-items: flex-start;
 }
+.sys-requirments{
+  padding-left: 15px;
+}
 
 .game-card img {
   width: 220px;
