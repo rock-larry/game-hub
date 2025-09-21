@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;   /* ✅ allows items to wrap on smaller screens */
   padding: 15px 5%;
   position: sticky;
   top: 0;
@@ -34,17 +35,18 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap; /* ✅ prevents nav overflow */
 }
 
 header nav ul li a {
-  color:  #fff; /* green links */
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #00ff88; /* brighter green on hover */
+  color: #00ff88;
 }
 
 /* 🔍 Search Box */
@@ -55,6 +57,8 @@ header nav ul li a:hover {
   border-radius: 6px;
   padding: 5px;
   margin-left: 20px;
+  flex: 1;          /* ✅ allows it to shrink/grow */
+  max-width: 250px; /* ✅ keeps it from stretching too much */
 }
 
 .search-box input {
@@ -63,21 +67,22 @@ header nav ul li a:hover {
   padding: 5px 8px;
   background: transparent;
   color: #f5f5f5;
+  width: 100%;      /* ✅ input fills available space */
 }
 
 .search-box button {
   border: none;
   background: transparent;
   cursor: pointer;
-  color: #00ff88; /* matches hover color */
+  color: #00ff88;
   font-size: 16px;
 }
 
-/* Responsive for smaller screens */
+/* Responsive */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch; /* ✅ makes children take full width */
   }
 
   header nav ul {
@@ -87,59 +92,12 @@ header nav ul li a:hover {
   }
 
   .search-box {
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  .search-box input {
-    flex: 1;
-    width: 100%;
+    margin: 10px 0 0;
+    width: 100%;   /* ✅ full width on mobile */
+    max-width: none;
   }
 }
 
-
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-}
-
-
-/* Hero */
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
-  color: #fff;
-  border-bottom: 2px solid #00ff88;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  color: #00ff88; /* Green heading */
-}
-
-.hero p {
-  margin: 15px 0;
-  color: #ccc;
-}
-
-.hero input {
-  padding: 10px;
-  width: 60%;
-  max-width: 400px;
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
-}
 
 /* Games Section */
 .games {
