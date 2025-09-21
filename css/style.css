@@ -57,17 +57,19 @@ header nav ul li a:hover {
   border-radius: 6px;
   padding: 5px;
   margin-left: 20px;
-  flex: 1;          /* ✅ allows it to shrink/grow */
-  max-width: 250px; /* ✅ keeps it from stretching too much */
+  flex: 1;              /* lets it shrink/grow */
+  max-width: 300px;     /* keeps it from being too wide */
+  min-width: 180px;     /* keeps it usable on smaller screens */
 }
 
 .search-box input {
   border: none;
   outline: none;
-  padding: 5px 8px;
+  padding: 8px 10px;
   background: transparent;
   color: #f5f5f5;
-  width: 100%;      /* ✅ input fills available space */
+  width: 100%;          /* ✅ input always fills available space */
+  font-size: 14px;
 }
 
 .search-box button {
@@ -75,28 +77,46 @@ header nav ul li a:hover {
   background: transparent;
   cursor: pointer;
   color: #00ff88;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 6px 8px;
 }
 
-/* Responsive */
+/* ✅ Responsive behavior */
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: stretch; /* ✅ makes children take full width */
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
   .search-box {
-    margin: 10px 0 0;
-    width: 100%;   /* ✅ full width on mobile */
+    width: 100%;        /* full width under nav */
     max-width: none;
+    margin: 10px 0 0;
+  }
+
+  .search-box input {
+    font-size: 16px;    /* bigger for mobile usability */
+    padding: 10px;
+  }
+
+  .search-box button {
+    font-size: 20px;
+    padding: 10px;
   }
 }
+
+@media (max-width: 480px) {
+  .search-box {
+    flex-direction: column;  /* stack input & button */
+    align-items: stretch;
+  }
+
+  .search-box input {
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+
+  .search-box button {
+    width: 100%;
+    border-radius: 6px;
+  }
+}
+
 
 
 /* Games Section */
