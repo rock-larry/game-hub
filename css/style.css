@@ -251,3 +251,16 @@ footer {
     font-size: 0.8rem;
   }
 }
+/* Make images resize instead of overflowing */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Containers should not overflow */
+.container, .content, .hero, .game-card {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
