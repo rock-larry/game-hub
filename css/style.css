@@ -19,7 +19,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;   /* ✅ allows items to wrap on smaller screens */
   padding: 15px 5%;
   position: sticky;
   top: 0;
@@ -35,18 +34,17 @@ header nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* ✅ prevents nav overflow */
 }
 
 header nav ul li a {
-  color: #fff;
+  color:  #fff; /* green links */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #00ff88;
+  color: #00ff88; /* brighter green on hover */
 }
 
 /* 🔍 Search Box */
@@ -57,67 +55,91 @@ header nav ul li a:hover {
   border-radius: 6px;
   padding: 5px;
   margin-left: 20px;
-  flex: 1;              /* lets it shrink/grow */
-  max-width: 300px;     /* keeps it from being too wide */
-  min-width: 180px;     /* keeps it usable on smaller screens */
 }
 
 .search-box input {
   border: none;
   outline: none;
-  padding: 8px 10px;
+  padding: 5px 8px;
   background: transparent;
   color: #f5f5f5;
-  width: 100%;          /* ✅ input always fills available space */
-  font-size: 14px;
 }
 
 .search-box button {
   border: none;
   background: transparent;
   cursor: pointer;
-  color: #00ff88;
-  font-size: 18px;
-  padding: 6px 8px;
+  color: #00ff88; /* matches hover color */
+  font-size: 16px;
 }
 
-/* ✅ Responsive behavior */
+/* Responsive for smaller screens */
 @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
   .search-box {
-    width: 100%;        /* full width under nav */
-    max-width: none;
-    margin: 10px 0 0;
-  }
-
-  .search-box input {
-    font-size: 16px;    /* bigger for mobile usability */
-    padding: 10px;
-  }
-
-  .search-box button {
-    font-size: 20px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .search-box {
-    flex-direction: column;  /* stack input & button */
-    align-items: stretch;
-  }
-
-  .search-box input {
-    border-radius: 6px;
-    margin-bottom: 8px;
-  }
-
-  .search-box button {
+    margin-top: 10px;
     width: 100%;
-    border-radius: 6px;
+  }
+
+  .search-box input {
+    flex: 1;
+    width: 100%;
   }
 }
 
 
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+  color: #fff;
+  border-bottom: 2px solid #00ff88;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #00ff88; /* Green heading */
+}
+
+.hero p {
+  margin: 15px 0;
+  color: #ccc;
+}
+
+.hero input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
 /* Games Section */
 .games {
