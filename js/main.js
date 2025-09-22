@@ -1,11 +1,14 @@
 // main.js (replace your existing search-related bits with this)
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../header.html")
+  // figure out if we're inside /html/ or not
+  const basePath = window.location.pathname.includes("/html/") ? ".." : ".";
+
+  fetch(`${basePath}/header.html`)
     .then(res => res.text())
     .then(data => document.getElementById("header").innerHTML = data);
 
-  fetch("../footer.html")
+  fetch(`${basePath}/footer.html`)
     .then(res => res.text())
     .then(data => document.getElementById("footer").innerHTML = data);
 });
