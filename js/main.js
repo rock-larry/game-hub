@@ -1,17 +1,15 @@
 // main.js (replace your existing search-related bits with this)
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Load header + footer and only init search after both are injected.
-  Promise.all([
-    fetch("/game-hub/header.html").then(r => r.text()).then(html => document.getElementById("header").innerHTML = html),
-    fetch("/game-hub/footer.html").then(r => r.text()).then(html => document.getElementById("footer").innerHTML = html)
-  ])
-  .then(() => {
-    // small delay won't hurt if browser is still parsing inserted HTML
-    setTimeout(() => initSearchBar(), 20);
-  })
-  .catch(err => console.error("Header/footer load error:", err));
+  fetch("../header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
+
+  fetch("../footer.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("footer").innerHTML = data);
 });
+
 
 function initSearchBar() {
   // debug checks
