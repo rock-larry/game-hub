@@ -112,6 +112,31 @@ header nav ul li a:hover {
   }
 }
 
+/* Suggestions dropdown */
+.suggestions {
+  display: none;
+  position: absolute;
+  background: #222;
+  border: 1px solid #444;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.suggestion-item:hover {
+  background: #00ff88;
+  color: #111;
+}
+
+
 
 /* Hero */
 .hero {

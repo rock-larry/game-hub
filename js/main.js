@@ -9,37 +9,51 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 // main.js
 
-function searchGames() {
-  let input = document.getElementById("searchInput").value.toLowerCase().trim();
-  if (!input) return;
+// main.js
 
-  // Find all matches (not just the first one)
-  const matches = gamesData.filter(game =>
-    game.name.toLowerCase().includes(input)
-  );
-
-  if (matches.length === 1) {
-    // If exactly one match, go straight to it
-    window.location.href = matches[0].url;
-  } else if (matches.length > 1) {
-    // If multiple matches, show a list of results
-    let resultsHtml = "<h2>Search Results</h2><ul>";
-    matches.forEach(game => {
-      resultsHtml += `<li><a href="${game.url}">${game.name}</a></li>`;
-    });
-    resultsHtml += "</ul>";
-
-    // Replace the body content with results
-    document.body.innerHTML = resultsHtml;
-  } else {
-    alert("❌ No game found! Try another title.");
-  }
-}
-
-// Enable Enter key search
+// Show suggestions as user types
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchInput");
+  const suggestionsBox = document.getElementById("searchSuggestions");
+
   if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      const query = this.value.toLowerCase().trim();
+      suggestionsBox.innerHTML = "";
+
+      if (query.length === 0) {
+        suggestionsBox.style.display = "none";
+        return;
+      }
+
+      // Find matching games
+      const matches = gamesData.filter(game =>
+        game.name.toLowerCase().includes(query)
+      );
+
+      if (matches.length === 0) {
+        suggestionsBox.style.display = "none";
+        return;
+      }
+
+      // Show suggestions
+      matches.forEach(game => {
+        const suggestion = document.createElement("div");
+        suggestion.classList.add("suggestion-item");
+        suggestion.textContent = game.name;
+
+        // Click → go to that game
+        suggestion.onclick = () => {
+          window.location.href = game.url;
+        };
+
+        suggestionsBox.appendChild(suggestion);
+      });
+
+      suggestionsBox.style.display = "block";
+    });
+
+    // Enter key = search
     searchInput.addEventListener("keypress", function (e) {
       if (e.key === "Enter") {
         searchGames();
@@ -47,3 +61,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// Redirect if only one match on Enter or button click
+function searchGames() {
+  const input = document.getElementById("searchInput").value.toLowerCase().trim();
+  if (!input) return;
+
+  const matches = gamesData.filter(game =>
+    game.name.toLowerCase().includes(input)
+  );
+
+  if (matches.length > 0) {
+    window.location.href = matches[0].url;
+  } else {
+    alert("❌ No game found! Try another title.");
+  }
+}
