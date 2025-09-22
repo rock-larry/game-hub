@@ -93,7 +93,7 @@ header nav ul li a:hover {
 
   .search-box input {
     flex: 1;
-    width: 100%;
+    width: 50%;
   }
 }
 
