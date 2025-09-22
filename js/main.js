@@ -1,7 +1,6 @@
 // main.js (replace your existing search-related bits with this)
 
 document.addEventListener("DOMContentLoaded", () => {
-  // figure out if we're inside /html/ or not
   const basePath = window.location.pathname.includes("/html/") ? ".." : ".";
 
   fetch(`${basePath}/header.html`)
@@ -12,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(res => res.text())
     .then(data => document.getElementById("footer").innerHTML = data);
 });
-
 
 function initSearchBar() {
   // debug checks
