@@ -1,66 +1,72 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Load header
   fetch("/game-hub/header.html")
     .then(res => res.text())
-    .then(data => document.getElementById("header").innerHTML = data);
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
 
+      // Now init search bar logic AFTER header is loaded
+      initSearchBar();
+    });
+
+  // Load footer
   fetch("/game-hub/footer.html")
     .then(res => res.text())
-    .then(data => document.getElementById("footer").innerHTML = data);
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
 });
-// main.js
 
-// main.js
-
-// Show suggestions as user types
-document.addEventListener("DOMContentLoaded", () => {
+// 🔍 Search bar logic
+function initSearchBar() {
   const searchInput = document.getElementById("searchInput");
   const suggestionsBox = document.getElementById("searchSuggestions");
 
-  if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      const query = this.value.toLowerCase().trim();
-      suggestionsBox.innerHTML = "";
+  if (!searchInput || !suggestionsBox) return;
 
-      if (query.length === 0) {
-        suggestionsBox.style.display = "none";
-        return;
-      }
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase().trim();
+    suggestionsBox.innerHTML = "";
 
-      // Find matching games
-      const matches = gamesData.filter(game =>
-        game.name.toLowerCase().includes(query)
-      );
+    if (query.length === 0) {
+      suggestionsBox.style.display = "none";
+      return;
+    }
 
-      if (matches.length === 0) {
-        suggestionsBox.style.display = "none";
-        return;
-      }
+    // Find matching games
+    const matches = gamesData.filter(game =>
+      game.name.toLowerCase().includes(query)
+    );
 
-      // Show suggestions
-      matches.forEach(game => {
-        const suggestion = document.createElement("div");
-        suggestion.classList.add("suggestion-item");
-        suggestion.textContent = game.name;
+    if (matches.length === 0) {
+      suggestionsBox.style.display = "none";
+      return;
+    }
 
-        // Click → go to that game
-        suggestion.onclick = () => {
-          window.location.href = game.url;
-        };
+    // Show suggestions
+    matches.forEach(game => {
+      const suggestion = document.createElement("div");
+      suggestion.classList.add("suggestion-item");
+      suggestion.textContent = game.name;
 
-        suggestionsBox.appendChild(suggestion);
-      });
+      // Click → go to that game
+      suggestion.onclick = () => {
+        window.location.href = game.url;
+      };
 
-      suggestionsBox.style.display = "block";
+      suggestionsBox.appendChild(suggestion);
     });
 
-    // Enter key = search
-    searchInput.addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        searchGames();
-      }
-    });
-  }
-});
+    suggestionsBox.style.display = "block";
+  });
+
+  // Enter key = search
+  searchInput.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      searchGames();
+    }
+  });
+}
 
 // Redirect if only one match on Enter or button click
 function searchGames() {
