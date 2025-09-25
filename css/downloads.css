@@ -375,3 +375,9 @@ nav a.active {
   font-style: italic;
   color: #ccc;
 }
+
+img {
+  max-width: 50%;
+  height: 50%;
+  display: block;
+}
