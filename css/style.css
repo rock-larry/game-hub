@@ -284,7 +284,7 @@ footer {
 /* Make images resize instead of overflowing */
 img {
   max-width: 50%;
-  height: auto;
+  height: 50%;
   display: block;
 }
 
