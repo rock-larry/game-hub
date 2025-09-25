@@ -283,7 +283,7 @@ footer {
 }
 /* Make images resize instead of overflowing */
 img {
-  max-width: 50%;
+  max-width: 5000%;
   height: 50%;
   display: block;
 }
