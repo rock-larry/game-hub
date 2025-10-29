@@ -115,34 +115,6 @@ header nav ul li a:hover {
 /* ensure the search-box is positioned so absolute suggestions sit under it */
 .search-box { position: relative; }
 
-/* suggestions dropdown */
-.suggestions {
-  display: none;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(100% + 6px);
-  background: #111;
-  border: 1px solid #333;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
-  border-radius: 6px;
-  max-height: 240px;
-  overflow-y: auto;
-  z-index: 2000;
-}
-
-/* suggestion item */
-.suggestion-item {
-  padding: 10px;
-  cursor: pointer;
-  color: #fff;
-  font-size: 14px;
-}
-.suggestion-item:hover {
-  background: #00ff88;
-  color: #111;
-}
-
 /* Hero */
 .hero {
   text-align: center;
