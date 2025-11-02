@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  loadPart("header", "html/header.html");
-  loadPart("footer", "html/footer.html");
+  loadPart("header", "header.html");
+  loadPart("footer", "footer.html");
 });
 
 
