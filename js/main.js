@@ -1,8 +1,10 @@
-// Load header and footer dynamically
 document.addEventListener("DOMContentLoaded", () => {
+  const basePath = window.location.pathname.includes("/html/") ? ".." : ".";
+  
   const loadPart = async (id, file) => {
     try {
-      const response = await fetch(file);
+      const response = await fetch(`${basePath}/${file}`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const html = await response.text();
       document.getElementById(id).innerHTML = html;
     } catch (error) {
@@ -10,35 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  loadPart("header", "/game-hub/header.html");
-  loadPart("footer", "/game-hub/footer.html");
-});
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  let games = [];
-
-  fetch('/game-hub/js/games.json')
-    .then(response => response.json())
-    .then(data => {
-      games = data;
-      displayGames(games);
-    })
-    .catch(err => console.error("Error loading games:", err));
-
-  function displayGames(gameList) {
-    const container = document.getElementById('gamesContainer');
-    if (!container) {
-      console.error("gamesContainer element not found");
-      return;
-    }
-
-    container.innerHTML = '';
-    gameList.forEach(game => {
-      const div = document.createElement('div');
-      div.innerHTML = `<a href="${game.link}" target="_blank">${game.title}</a>`;
-      container.appendChild(div);
-    });
-  }
+  loadPart("header", "header.html");
+  loadPart("footer", "footer.html");
 });
