@@ -20,7 +20,7 @@ function displayGames(gameList) {
 }
 
 // Search function
-document.getElementById('searchGames()').addEventListener('click', () => {
+document.getElementById('searchBtn').addEventListener('click', () => {
   const searchTerm = document.getElementById('searchInput').value.toLowerCase();
   const filtered = games.filter(game => game.title.toLowerCase().includes(searchTerm));
   displayGames(filtered);
