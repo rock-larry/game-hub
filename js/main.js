@@ -1,13 +1,13 @@
+// Load games from JSON file
 let games = [];
 
-// Load games from JSON file
-fetch('games.json')
+fetch('/game-hub/js/games.json')
   .then(response => response.json())
   .then(data => {
     games = data;
-    displayGames(games); // show all by default
-  });
-
+    displayGames(games);
+  })
+  .catch(error => console.error("Error loading games:", error));
 // Display function
 function displayGames(gameList) {
   const container = document.getElementById('gamesContainer');
@@ -20,7 +20,7 @@ function displayGames(gameList) {
 }
 
 // Search function
-document.getElementById('searchBtn').addEventListener('click', () => {
+document.getElementById('searchGames()').addEventListener('click', () => {
   const searchTerm = document.getElementById('searchInput').value.toLowerCase();
   const filtered = games.filter(game => game.title.toLowerCase().includes(searchTerm));
   displayGames(filtered);
