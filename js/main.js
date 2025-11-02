@@ -1,27 +1,43 @@
-// Load games from JSON file
 let games = [];
 
+// Load games data
 fetch('/game-hub/js/games.json')
   .then(response => response.json())
   .then(data => {
     games = data;
     displayGames(games);
   })
-  .catch(error => console.error("Error loading games:", error));
-// Display function
+  .catch(err => console.error("Error loading games:", err));
+
+// Display games
 function displayGames(gameList) {
   const container = document.getElementById('gamesContainer');
-  container.innerHTML = ''; // clear existing
+  if (!container) {
+    console.error("gamesContainer element not found");
+    return;
+  }
+  container.innerHTML = '';
   gameList.forEach(game => {
     const div = document.createElement('div');
-    div.innerHTML = `<a href="${game.link}" target="_blank">${game.title}</a>`;
+    div.innerHTML = `<a href="${game.url}" target="_blank">${game.name}</a>`;
     container.appendChild(div);
   });
 }
 
 // Search function
-document.getElementById('searchBtn').addEventListener('click', () => {
-  const searchTerm = document.getElementById('searchBtn').value.toLowerCase();
-  const filtered = games.filter(game => game.title.toLowerCase().includes(searchTerm));
-  displayGames(filtered);
+document.addEventListener("DOMContentLoaded", () => {
+  const searchBtn = document.getElementById('searchBtn');
+  const searchInput = document.getElementById('searchInput');
+
+  if (searchBtn && searchInput) {
+    searchBtn.addEventListener('click', () => {
+      const searchTerm = searchInput.value.toLowerCase();
+      const filtered = games.filter(game =>
+        game.name.toLowerCase().includes(searchTerm)
+      );
+      displayGames(filtered);
+    });
+  } else {
+    console.error("Search input or button not found in DOM");
+  }
 });
