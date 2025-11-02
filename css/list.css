@@ -99,6 +99,7 @@ main {
 }
 
 .game-list a:hover {
-  color: #00ff88;
+  color: #fff;
+  background-color: #00ff88;
  
 }
