@@ -1,19 +1,21 @@
 <header>
   <div class="logo">🎮 GameVault</div>
-  <link rel="stylesheet" href="/game-hub/css/style.css">
+
+  <!-- Use relative paths so it works in both root and /html/ -->
+  <link rel="stylesheet" href="../css/style.css" onerror="this.href='css/style.css'">
 
   <nav>
     <ul>
-      <li><a href="/game-hub/index.html">Home</a></li>
-      <li><a href="/game-hub/html/list.html">List Of Games</a></li>
-      <li><a href="/game-hub/html/contact.html">Contact</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="list.html">List Of Games</a></li>
+      <li><a href="contact.html">Contact</a></li>
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">FAQs</a></li>
       <li><a href="#">Game Requests</a></li>
     </ul>
   </nav>
 </header>
-  <script src="/game-hub/js/main.js" defer></script>
+
 <main>
   <div id="gamesContainer"></div>
 </main>
