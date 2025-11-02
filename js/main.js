@@ -25,19 +25,3 @@ function displayGames(gameList) {
 }
 
 // Search function
-document.addEventListener("DOMContentLoaded", () => {
-  const searchBtn = document.getElementById('searchBtn');
-  const searchInput = document.getElementById('searchInput');
-
-  if (searchBtn && searchInput) {
-    searchBtn.addEventListener('click', () => {
-      const searchTerm = searchInput.value.toLowerCase();
-      const filtered = games.filter(game =>
-        game.name.toLowerCase().includes(searchTerm)
-      );
-      displayGames(filtered);
-    });
-  } else {
-    console.error("Search input or button not found in DOM");
-  }
-});
