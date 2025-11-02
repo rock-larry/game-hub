@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  loadPart("header", "header.html");
-  loadPart("footer", "footer.html");
+  loadPart("header", "/game-hub/header.html");
+  loadPart("footer", "/game-hub/footer.html");
 });
 
 
