@@ -1,3 +1,21 @@
+// Load header and footer dynamically
+document.addEventListener("DOMContentLoaded", () => {
+  const loadPart = async (id, file) => {
+    try {
+      const response = await fetch(file);
+      const html = await response.text();
+      document.getElementById(id).innerHTML = html;
+    } catch (error) {
+      console.error(`Failed to load ${file}:`, error);
+    }
+  };
+
+  loadPart("header", "html/header.html");
+  loadPart("footer", "html/footer.html");
+});
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
   let games = [];
 
