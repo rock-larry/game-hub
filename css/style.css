@@ -37,14 +37,12 @@ header nav ul {
 }
 
 header nav ul li a {
-  color:  #fff; /* green links */
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
+  color: #00ff88;
+  
 }
 
 header nav ul li a:hover {
-  color: #00ff88; /* brighter green on hover */
+  color:  #fff; 
 }
 
 /* 🔍 Search Box */
