@@ -1,3 +1,19 @@
+.logo-container {
+  display: flex;
+  align-items: center; /* vertically aligns logo and text */
+  gap: 10px; /* space between logo and site name */
+}
+
+.logo {
+  width: 40px; /* adjust size as needed */
+  height: auto;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* or any color that matches your theme */
+}
 /* Reset */
 * {
   margin: 0;
