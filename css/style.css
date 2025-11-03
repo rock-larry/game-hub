@@ -5,8 +5,9 @@
 }
 
 .logo {
-  width: 40px; /* adjust size as needed */
-  height: auto;
+  width: auto; /* adjust size as needed */
+  height: 24px;
+  vertical-align: middle;
 }
 
 .site-name {
