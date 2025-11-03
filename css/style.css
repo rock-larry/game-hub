@@ -58,7 +58,7 @@ body {
 /* Header */
 header {
   background: #111; /* dark background */
-  color: #fff;
+  color: #00ff88;
   display: flex;
   justify-content: space-between;
   align-items: center;
