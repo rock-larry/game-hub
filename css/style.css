@@ -7,8 +7,8 @@
 
 /* Logo sizing */
 .logo {
-  height: 2rem;      /* Adjust to match site-name size */
-  width: auto;       /* Maintain aspect ratio */
+  height: 50px;      /* Adjust to match site-name size */
+  width: 50px;       /* Maintain aspect ratio */
 }
 
 /* Site name */
