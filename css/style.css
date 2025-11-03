@@ -80,12 +80,12 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #00ff88;
+  color:#fff;
   
 }
 
 header nav ul li a:hover {
-  color:  #fff; 
+  color: #00ff88; 
 }
 
 /* 🔍 Search Box */
