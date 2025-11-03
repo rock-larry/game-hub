@@ -8,14 +8,14 @@
 /* Logo sizing */
 .logo {
   height: 2rem;      /* Adjust to match site-name size */
-  width: auto;       /* Maintain aspect ratio */
+  width: 50px;       /* Maintain aspect ratio */
 }
 
 /* Site name */
 .site-name {
   font-size: 1.8rem; /* Adjust font size */
   font-weight: bold;
-  /*color: #fff;       /* Change to match your theme */
+  color: #00ff88;       /* Change to match your theme */
 }
 
 /* Navbar styling */
