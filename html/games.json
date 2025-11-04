@@ -63,7 +63,7 @@
     "id": "assassinscreed",
     "title": "Assassins creed ",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/assassinscreed.jpg.jpg",
+    "image": "../images/assassinscreed.jpg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
