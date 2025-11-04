@@ -3,7 +3,7 @@
     "id": "alanwake",
     "title": "Alan Wake",
     "description": "Alan Wake is an epic adventure game where players explore a vast world, complete quests, and battle legendary creatures.",
-    "image": "/game-hub/images/alanwake.jpg",
+    "image": "../images/alanwake.jpg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
@@ -43,7 +43,7 @@
     "id": "alienshooter",
     "title": "Alien Shooter",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/alien shooter 2.jpg",
+    "image": "../images/alienshooter2.jpg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
