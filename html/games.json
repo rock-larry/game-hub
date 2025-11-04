@@ -80,10 +80,10 @@
   },
 
   {
-    "id": "alienshooter",
+    "id": "codmw2",
     "title": "Alien Shooter",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/alien shooter 2.jpg",
+    "image": "../images/codmw2.jpeg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
@@ -94,7 +94,7 @@
     "download_links": [
       {
         "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_codmw3"
       }
     ]
   },
