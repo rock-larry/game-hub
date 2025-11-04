@@ -26,7 +26,7 @@
     const params = new URLSearchParams(window.location.search);
     const gameId = params.get("id");
 
-    fetch("/game-hub/data/games.json")
+    fetch(".../data/games.json")
       .then(res => res.json())
       .then(games => {
         const game = games.find(g => g.id === gameId);
