@@ -3,7 +3,7 @@
     "id": "alanwake",
     "title": "Alan Wake",
     "description": "Alan Wake is an epic adventure game where players explore a vast world, complete quests, and battle legendary creatures.",
-    "image": "/game-hub/images/alanwake.jpg",
+    "image": "\game-hub\images\alanwake.jpg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
