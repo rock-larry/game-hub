@@ -22,10 +22,7 @@
   {
     "id": "assassinscreed2",
     "title": "assassinscreed2",
-    "description": "Assassin’s Creed II continues the saga with Ezio Auditore da Firenze, 
-           a young nobleman in Renaissance Italy who becomes an Assassin after tragedy strikes his family.
-            Players explore iconic cities like Florence and Venice, mastering stealth, combat, and 
-            parkour while uncovering the secrets of the Templars and the mysterious Pieces of Eden.",
+    "description": "Alan Wake is an epic adventure game where players explore a vast world, complete quests, and battle legendary creatures.",
     "image": "../images/assassinscreed2.JPG",
     "system_requirements": [
       "OS: Windows 10",
