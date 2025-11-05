@@ -343,6 +343,46 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
       }
     ]
+  },
+
+   {
+    "id": "gta3remasted",
+    "title": "Grand Theft Auto 3 Remasted",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/gta3remasted.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_codmw3"
+      }
+    ]
+  },
+
+  {
+    "id": "rottr",
+    "title": "Rise Of The Tomb Raider",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/rottr.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Rise_Of_The_Tomb_Raider"
+      }
+    ]
   }
 
 ]
