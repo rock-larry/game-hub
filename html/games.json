@@ -1,37 +1,36 @@
 [
   {
-    "id": "alanwake2",
-    "title": "Alan Wake 2",
-    "description": "Alan Wake 2 is a survival horror game that combines intense psychological terror with a meta-narrative, following two protagonists: FBI agent Saga Anderson, who investigates ritualistic murders in the Pacific Northwest, and author Alan Wake, who is trapped in a nightmarish alternate dimension called the Dark Place. Players must survive by using light against supernatural enemies, solving puzzles, and exploring two contrasting worlds—the picturesque but corrupted Bright Falls and the terrifying, reality-bending Dark Place. ",
-    "image": "../images/alanwake.jpg",
-    "Re_system_requirements": [
-      "CPU: Core i7-11700K / Ryzen 7 3700X",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-      "DEDICATED VIDEO RAM: 8192 MB",
-      "PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      "OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
-
-    ],
-    "Min_system_requirements": [
-      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
-    ],
-    "download_links": [
-      {
-        "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Alan_wake_2"
-      }
-    ]
-  },
+  "id": "alanwake2",
+  "title": "Alan Wake 2",
+  "description": "Alan Wake 2 is a survival horror game that combines intense psychological terror with a meta-narrative, following two protagonists: FBI agent Saga Anderson, who investigates ritualistic murders in the Pacific Northwest, and author Alan Wake, who is trapped in a nightmarish alternate dimension called the Dark Place. Players must survive by using light against supernatural enemies, solving puzzles, and exploring two contrasting worlds—the picturesque but corrupted Bright Falls and the terrifying, reality-bending Dark Place.",
+  "image": "../images/alanwake.jpg",
+  "Re_system_requirements": [
+    "CPU: Core i7-11700K / Ryzen 7 3700X",
+    "RAM: 16 GB",
+    "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+    "DEDICATED VIDEO RAM: 8192 MB",
+    "PIXEL SHADER: 5.1",
+    "VERTEX SHADER: 5.1",
+    "OS: Windows 10/11 64-bit",
+    "FREE DISK SPACE: 90 GB"
+  ],
+  "Min_system_requirements": [
+    "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+    "RAM: 16 GB",
+    "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+    "DEDICATED VIDEO RAM: 6144 MB",
+    "PIXEL SHADER: 5.1",
+    "VERTEX SHADER: 5.1",
+    "OS: Windows 10/11 64-bit",
+    "FREE DISK SPACE: 90 GB"
+  ],
+  "download_links": [
+    {
+      "name": "Download",
+      "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Alan_wake_2"
+    }
+  ]
+},
 
   {
     "id": "assassinscreed2",
