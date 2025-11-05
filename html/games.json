@@ -11,6 +11,13 @@
       "Graphics: GTX 1050 / RX 560",
       "Storage: 20GB available space"
     ],
+    "Min_system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1050 / RX 560",
+      "Storage: 20GB available space"
+    ],
     "download_links": [
       {
         "name": "Download",

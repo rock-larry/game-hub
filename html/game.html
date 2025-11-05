@@ -45,6 +45,7 @@
 
         // Generate system requirements
         const sysreq = game.system_requirements.map(r => `<li>${r}</li>`).join("");
+        const minsysreq = game.Min_system_requirements.map(r => `<li>${r}</li>`).join("");
 
         section.innerHTML = `
           <h2>Download ${game.title}</h2>
@@ -61,6 +62,8 @@
           <div class="sys-requirements">
             <p><strong>System Requirements:</strong></p>
             <ul>${sysreq}</ul>
+             <p><strong>Recommended System Requirements:</strong></p>
+             <ul>${minsysreq}</ul>
           </div>
 
           <div class="install-guide">
