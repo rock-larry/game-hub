@@ -30,7 +30,7 @@
       .then(res => res.json())
       .then(games => {
         const game = games.find(g => g.id === gameId);
-        const section = document.getElementById("game-content");
+        let section = document.getElementById("game-content");
 
         if (!game) {
           section.innerHTML = "<h2>Game not found.</h2>";
@@ -40,55 +40,55 @@
         document.title = `Download - ${game.title}`;
         document.getElementById("page-title").textContent = `Download - ${game.title}`;
 
-        // Generate download links
+       // Generate download links safely
 const links = Array.isArray(game.download_links)
   ? game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("")
   : "<li>No download links available.</li>";
- links = game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("");
-        // Generate Recommended system requirements
-        const Re_sysreq = Array.isArray(game.Re_system_requirements)
+
+// Recommended system requirements
+const Re_sysreq = Array.isArray(game.Re_system_requirements)
   ? game.Re_system_requirements.map(r => `<li>${r}</li>`).join("")
   : "<li>Not available.</li>";
 
-
-        // Minimum system requirements
+// Minimum system requirements
 const minsysreq = Array.isArray(game.Min_system_requirements)
   ? game.Min_system_requirements.map(r => `<li>${r}</li>`).join("")
-  : "<li>Not available.</li>";`
+  : "<li>Not available.</li>";
 
+section.innerHTML = `
+  <h2>Download ${game.title}</h2>
+  <div class="game-card">
+    <img src="${game.image}" alt="${game.title}">
+  <div class="game-info">
+      <h3>${game.title}</h3>
+      <p>${game.description}</p>
+      <h4>Download Link:</h4>
+      <ul class="download-list">${links}</ul>
+    </div>
+  </div>
 
-          <h2>Download ${game.title}</h2>
-          <div class="game-card">
-            <img src="${game.image}" alt="${game.title}">
-            <div class="game-info">
-              <h3>${game.title}</h3>
-              <p>${game.description}</p>
-              <h4>Download Link:</h4>
-              <ul class="download-list">${links}</ul>
-            </div>
-          </div>
+  <div class="sys-requirements">
+    <p><strong>Recommended System Requirements:</strong></p>
+    <ul>${Re_sysreq}</ul>
+    <p><strong>Minimum System Requirements:</strong></p>
+    <ul>${minsysreq}</ul>
+  </div>
 
-          <div class="sys-requirements">
-            <p><strong>Recommended System Requirements:</strong></p>
-            <ul>${Re_sysreq}</ul>
-             <p><strong>Mininum System Requirements:</strong></p>
-             <ul>${minsysreq}</ul>
-          </div>
+  <div class="install-guide">
+    <h2>Installation Guide</h2>
+    <ol>
+      <li>Download all the parts completely.</li>
+      <li>Extract the first part (others will extract automatically).</li>
+      <li>Open the folder and run <strong>setup.exe</strong>.</li>
+      <li>Follow the instructions to install the game.</li>
+    </ol>
+    <p><strong>Note:</strong> Use WinRAR/7-Zip to extract files properly.
+    Clicking On The Download Link Will Take You To Our Telegram Channel Where All The Game Parts Will
+    Be Sent To You Through Our Telegram Bot. Forward All Parts To Your Saved Messages Because They Will Be 
+    Deleted Automatically After 10 mins.</p>
+  </div>
+`;
 
-          <div class="install-guide">
-            <h2>Installation Guide</h2>
-            <ol>
-              <li>Download all the parts completely.</li>
-              <li>Extract the first part (others will extract automatically).</li>
-              <li>Open the folder and run <strong>setup.exe</strong>.</li>
-              <li>Follow the instructions to install the game.</li>
-            </ol>
-            <p><strong>Note:</strong> Use WinRAR/7-Zip to extract files properly.
-            Clicking On The Download Link Will Take You To Our Telegram Channel Where All The Game Parts Will
-            Be Sent To You Though Our Telegram Bot, Forward All Parts To Your Saved Messages Because They Will Be 
-            Deleted automatically After 10 mins.</p>
-          </div>
-        `;
       })
       .catch(err => {
         console.error(err);
