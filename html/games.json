@@ -4,19 +4,26 @@
     "title": "Alan Wake 2",
     "description": "Alan Wake 2 is a survival horror game that combines intense psychological terror with a meta-narrative, following two protagonists: FBI agent Saga Anderson, who investigates ritualistic murders in the Pacific Northwest, and author Alan Wake, who is trapped in a nightmarish alternate dimension called the Dark Place. Players must survive by using light against supernatural enemies, solving puzzles, and exploring two contrasting worlds—the picturesque but corrupted Bright Falls and the terrifying, reality-bending Dark Place. ",
     "image": "../images/alanwake.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1050 / RX 560",
-      "Storage: 20GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
     ],
     "Min_system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1050 / RX 560",
-      "Storage: 20GB available space"
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -31,12 +38,26 @@
     "title": "Assassin's Creed 2",
     "description": "Assassin's Creed II is an action-adventure game played from a third-person perspective and set in an open world based on late 15th-century Renaissance Italy. Gameplay is nonlinear, and focuses on hack and slash combat, stealth, and exploration.",
     "image": "../images/assassinscreed2.JPG",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -51,12 +72,26 @@
     "title": "Assassin's Creed 3",
     "description": "Assassin's Creed 3 is an action-adventure game set during the American Revolution where you play as Connor, a Native American assassin. He fights against the Templars amidst the conflict between the American colonists and the British, using a blend of traditional weapons like tomahawks and firearms. The game features a vast, new open world with both city and frontier environments, enhanced by a new engine that brought new physics, animation, and weather systems. It also introduces naval combat and an updated multiplayer mode. ",
     "image": "../images/assassinscreed.JPG",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -71,12 +106,26 @@
     "title": "Alien Shooter",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/alienshooter2.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+   "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -91,12 +140,26 @@
     "title": "Assassins creed ",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreed.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -111,12 +174,26 @@
     "title": "Call Of Duty - Modern Warfare 1",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/codmw2.jpeg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -131,12 +208,26 @@
     "title": "Attack On Titans",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/attackontitans.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -154,12 +245,26 @@
     "title": "Assassin's Creed Blackflag",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedblackflag.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -176,12 +281,26 @@
     "title": "Assassin's Creed III Remestered",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassincreed3remestered.jpeg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -197,12 +316,26 @@
     "title": "Assassin's Creed Chronicles",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedchronicles.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -217,12 +350,26 @@
     "title": "Assassin's Creed Odyssey",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedodyssey.webp",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -237,12 +384,26 @@
     "title": "Assassin's Creed Origins",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedorigins.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+   "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -257,12 +418,26 @@
     "title": "Assassin's Creed Rouge",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedrouge.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -277,12 +452,26 @@
     "title": "Assassin's Creed Syndicate",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedsyndicate.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -297,12 +486,26 @@
     "title": "Assassin's Creed Unity",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedunity.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -317,12 +520,26 @@
     "title": "Assassin's Creed Vallhala",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedvallhala.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -337,12 +554,26 @@
     "title": "Assassin's Creed Brotherhood",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedbrotherhood.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -357,12 +588,26 @@
     "title": "Assassin's Creed Revelations",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedrevelations.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -377,12 +622,26 @@
     "title": "Grand Theft Auto 3 Remasted",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/gta3remasted.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
@@ -397,12 +656,26 @@
     "title": "Rise Of The Tomb Raider",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/rottr.jpg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+     " DEDICATED VIDEO RAM: 6144 MB",
+     " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+     " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
       {
