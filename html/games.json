@@ -183,6 +183,166 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
       }
     ]
+  },
+
+    {
+    "id": "assassinscreedodyssey",
+    "title": "Assassin's Creed Odyssey",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedodyssey.webp",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+      {
+    "id": "assassinscreedorigins",
+    "title": "Assassin's Creed Origins",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedorigins.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedrouge",
+    "title": "Assassin's Creed Rouge",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedrouge.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedsyndicate",
+    "title": "Assassin's Creed Syndicate",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedsyndicate.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedunity",
+    "title": "Assassin's Creed Unity",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedunity.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedvallhala",
+    "title": "Assassin's Creed Vallhala",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedvallhala.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedbrotherhood",
+    "title": "Assassin's Creed Brotherhood",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedbrotherhood.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
+  },
+
+   {
+    "id": "assassinscreedrevelations",
+    "title": "Assassin's Creed Revelations",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/assassinscreedrevelations.jpg",
+    "system_requirements": [
+      "OS: Windows 10",
+      "Processor: Intel i5 or higher",
+      "Memory: 8GB RAM",
+      "Graphics: GTX 1060 / RX 580",
+      "Storage: 90GB available space"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
+      }
+    ]
   }
 
 ]
