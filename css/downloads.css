@@ -41,6 +41,10 @@ body {
   justify-content: center;
 }
 
+.game-card img:hover {
+  transform: scale(1.05);    /* subtle hover zoom */
+}
+
 .game-card img {
   width: 180px;
   height: auto;
@@ -140,12 +144,7 @@ body {
     text-align: center;
   }
 
-  .game-card img {
-    width: 100%;
-    max-width: 20px;
-  }
-
   .download-list a {
-    width: 80%;
+    width: 10%;
   }
 }
