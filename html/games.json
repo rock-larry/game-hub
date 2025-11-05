@@ -21,7 +21,7 @@
 
   {
     "id": "assassinscreed2",
-    "title": "assassinscreed2",
+    "title": "Assassin's Creed 2",
     "description": "Alan Wake is an epic adventure game where players explore a vast world, complete quests, and battle legendary creatures.",
     "image": "../images/assassinscreed2.JPG",
     "system_requirements": [
@@ -121,7 +121,7 @@
 
   {
     "id": "assassincreed3remestered",
-    "title": "assassincreed3remestered",
+    "title": "Assassin's Creed 3 Remestered",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassincreed3remestered.jpeg",
     "system_requirements": [
@@ -141,9 +141,9 @@
 
   {
     "id": "assassinscreedblackflag",
-    "title": "assassinscreedblackflag",
+    "title": "Assassin's Creed Blackflag",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/assassinscreedblackflag.JPG",
+    "image": "../images/assassinscreedblackflag.jpg",
     "system_requirements": [
       "OS: Windows 10",
       "Processor: Intel i5 or higher",
