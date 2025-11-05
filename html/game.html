@@ -41,13 +41,22 @@
         document.getElementById("page-title").textContent = `Download - ${game.title}`;
 
         // Generate download links
-        const links = game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("");
+const links = Array.isArray(game.download_links)
+  ? game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("")
+  : "<li>No download links available.</li>";
+ links = game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("");
+        // Generate Recommended system requirements
+        const Re_sysreq = Array.isArray(game.Re_system_requirements)
+  ? game.Re_system_requirements.map(r => `<li>${r}</li>`).join("")
+  : "<li>Not available.</li>";
 
-        // Generate system requirements
-        const Re_sysreq = game.Re_system_requirements.map(r => `<li>${r}</li>`).join("");
-        const minsysreq = game.Min_system_requirements.map(r => `<li>${r}</li>`).join("");
 
-        section.innerHTML = `
+        // Minimum system requirements
+const minsysreq = Array.isArray(game.Min_system_requirements)
+  ? game.Min_system_requirements.map(r => `<li>${r}</li>`).join("")
+  : "<li>Not available.</li>";`
+
+
           <h2>Download ${game.title}</h2>
           <div class="game-card">
             <img src="${game.image}" alt="${game.title}">
