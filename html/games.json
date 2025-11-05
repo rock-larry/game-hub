@@ -39,34 +39,34 @@
     "image": "../images/assassinscreed2.JPG",
     "Re_system_requirements": [
      "CPU: Intel Core 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better",
-"RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
-"VIDEO CARD: NVIDIA GeForce 8800 GT or ATI Radeon HD 4700 or better",
-"TOTAL VIDEO RAM: 512 MB",
-"PIXEL SHADER: 3.0",
-"VERTEX SHADER: 3.0",
-"HARDWARE T&L: Yes",
-"DIRECTX VERSION: DirectX 9.0",
-"OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
-"FREE DISK SPACE: 8 GB",
-"SOUND CARD: Yes",
-"DVD-ROM: Yes"
+    "RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+    "VIDEO CARD: NVIDIA GeForce 8800 GT or ATI Radeon HD 4700 or better",
+    "TOTAL VIDEO RAM: 512 MB",
+    "PIXEL SHADER: 3.0",
+    "VERTEX SHADER: 3.0",
+    "HARDWARE T&L: Yes",
+    "DIRECTX VERSION: DirectX 9.0",
+    "OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
+    "FREE DISK SPACE: 8 GB",
+    "SOUND CARD: Yes",
+    "DVD-ROM: Yes"
 
 
     ],
     "Min_system_requirements": [
       "CPU: Intel Core 2 Duo 1.8 GHz or AMD Athlon 64 X2 2.4 GHz",
-"CPU SPEED: Intel Core 2 Duo 1.8 GHz or AMD Athlon 64 X2 2.4 GHz",
-"RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
-"VIDEO CARD: 256 MB DirectX 9.0-compliant card with Shader Model 3.0 or higher (NVIDIA GeForce 7/8/9/100/200 series / ATI RADEON X1950, HD 2000/3000/4000/5000 series)",
-"TOTAL VIDEO RAM: 256 MB",
-"PIXEL SHADER: 3.0",
-"VERTEX SHADER: 3.0",
-"HARDWARE T&L: Yes",
-"DIRECTX VERSION: DirectX 9.0",
-"OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
-"FREE DISK SPACE: 8 GB",
-"SOUND CARD: Yes",
-"DVD-ROM: Yes"
+      "CPU SPEED: Intel Core 2 Duo 1.8 GHz or AMD Athlon 64 X2 2.4 GHz",
+      "RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+      "VIDEO CARD: 256 MB DirectX 9.0-compliant card with Shader Model 3.0 or higher (NVIDIA GeForce 7/8/9/100/200 series / ATI RADEON X1950, HD 2000/3000/4000/5000 series)",
+      "TOTAL VIDEO RAM: 256 MB",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "HARDWARE T&L: Yes",
+      "DIRECTX VERSION: DirectX 9.0",
+      "OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes",
+      "DVD-ROM: Yes"
 
     ],
     "download_links": [
@@ -84,28 +84,30 @@
     "image": "../images/assassinscreed.JPG",
     "Re_system_requirements": [
      "CPU: 2.6 GHz Intel Core 2 Quad Q9400 or 3.0 GHz AMD Phenom II X4 940",
-"CPU SPEED: Info",
-"RAM: 4 GB",
-"VIDEO CARD: 1024 MB DirectX 10 compliant with Shader Model 5.0 or higher (GeForce GTX 460 or Radeon HD 6850)",
-"DEDICATED VIDEO RAM: 1024 MB",
-"PIXEL SHADER: 5.0",
-"VERTEX SHADER: 5.0",
-"OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
-"FREE DISK SPACE: 17 GB",
-"SOUND CARD: Yes"
+     "CPU SPEED: Info",
+      "RAM: 4 GB",
+      "VIDEO CARD: 1024 MB DirectX 10 compliant with Shader Model 5.0 or higher (GeForce GTX 460 or Radeon HD 6850)",
+      "DEDICATED VIDEO RAM: 1024 MB",
+      "PIXEL SHADER: 5.0",
+      "VERTEX SHADER: 5.0",
+      "OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
+      "FREE DISK SPACE: 17 GB",
+      "SOUND CARD: Yes"
+
 
     ],
     "Min_system_requirements": [
       "CPU: 2.66 GHz Intel Core 2 Duo E8200 or 2.66 GHz AMD Athlon II X4 620",
-"CPU SPEED: Info",
-"RAM: 2 GB",
-"VIDEO CARD: 512 MB DirectX 9.0c-compliant with Shader Model 4.0 or higher (GeForce 8800 GT or Radeon HD 4850)",
-"DEDICATED VIDEO RAM: 512 MB",
-"PIXEL SHADER: 4.0",
-"VERTEX SHADER: 4.0",
-"OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
-"FREE DISK SPACE: 17 GB",
-"SOUND CARD: Yes"
+      "CPU SPEED: Info",
+      "RAM: 2 GB",
+      "VIDEO CARD: 512 MB DirectX 9.0c-compliant with Shader Model 4.0 or higher (GeForce 8800 GT or Radeon HD 4850)",
+      "DEDICATED VIDEO RAM: 512 MB",
+      "PIXEL SHADER: 4.0",
+      "VERTEX SHADER: 4.0",
+      "OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
+      "FREE DISK SPACE: 17 GB",
+      "SOUND CARD: Yes"
+
 
     ],
     "download_links": [
