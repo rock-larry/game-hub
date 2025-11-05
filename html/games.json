@@ -117,28 +117,11 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
       }
     ]
+ 
+  
   },
 
-  {
-    "id": "assassincreed3remestered",
-    "title": "Assassin's Creed 3 Remestered",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/assassincreed3remestered.jpeg",
-    "system_requirements": [
-      "OS: Windows 10",
-      "Processor: Intel i5 or higher",
-      "Memory: 8GB RAM",
-      "Graphics: GTX 1060 / RX 580",
-      "Storage: 90GB available space"
-    ],
-    "download_links": [
-      {
-        "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
-      }
-    ]
-  },
-
+[
   {
     "id": "assassinscreedblackflag",
     "title": "Assassin's Creed Blackflag",
@@ -159,4 +142,5 @@
     ]
   }
 
+]
 ]
