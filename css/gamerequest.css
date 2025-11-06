@@ -1,0 +1,162 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* PAGE */
+body {
+  background: #0a0f1f;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  background: #101a2e;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #00ff88;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00ff88;
+  text-shadow: 0 0 8px #00ff8855;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ff88;
+}
+
+/* REQUEST FORM SECTION */
+.request-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.request-section h1 {
+  font-size: 2.2rem;
+  color: #00ff88;
+  text-shadow: 0 0 10px #00ff8855;
+  margin-bottom: 10px;
+}
+
+.request-section p {
+  color: #ccc;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+form {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  border-radius: 12px;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 450px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  color: #00ff88;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #111;
+}
+
+input, select {
+  background: #f9f9f9;
+}
+
+textarea {
+  background: #f9f9f9;
+  min-height: 100px;
+  resize: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0a0f1f;
+  background: #00ff88;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #00cc6f;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background: #101a2e;
+  color: #ccc;
+  border-top: 2px solid #00ff88;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form {
+    padding: 25px;
+  }
+
+  .request-section h1 {
+    font-size: 1.7rem;
+  }
+}

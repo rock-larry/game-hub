@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Request | GameVault</title>
+  <link rel="stylesheet" href="/static/gamerequest.css">
+</head>
+<body>
+  
+    <div id="header"></div>
+
+  <section class="request-section">
+    <h1>🎯 Request a Game</h1>
+    <p>Can’t find your favorite game? Send us a request and we’ll add it soon!</p>
+
+    <form id="requestForm">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="game">Game Title</label>
+      <input type="text" id="game" placeholder="Enter the game name" required>
+
+      <label for="platform">Platform</label>
+      <select id="platform" required>
+        <option value="">Select platform</option>
+        <option>PC</option>
+        <option>PlayStation</option>
+        <option>Xbox</option>
+        <option>Mobile</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Additional Info (optional)</label>
+      <textarea id="message" placeholder="Any notes or details..."></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+  
+<script src="js/main.js"></script>
+  <div id="footer"></div>
+</body>
+</html>
