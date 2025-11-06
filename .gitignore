@@ -1,0 +1,21 @@
+# Ignore environment and config files
+.env
+config.json
+secrets.json
+*.key
+*.pem
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if any)
+__pycache__/
+*.pyc
+
+# Ignore node modules (if you use npm later)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
