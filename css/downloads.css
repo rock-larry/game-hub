@@ -42,7 +42,7 @@ body {
 }
 
 .game-card img:hover {
-  transform: scale(1.05);    /* subtle hover zoom */
+  transform: scale(1.05);
 }
 
 .game-card img {
@@ -87,13 +87,15 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 12px 25px;
   border-radius: 8px;
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .download-list a:hover {
   background-color: #00cc7a;
+  transform: translateY(-2px);
 }
 
 /* ===== System Requirements ===== */
@@ -142,9 +144,33 @@ body {
   .game-card {
     flex-direction: column;
     text-align: center;
+    padding: 15px;
+  }
+
+  .game-card img {
+    width: 80%;
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+
+  .game-info h3 {
+    font-size: 1.5rem;
   }
 
   .download-list a {
-    width: 80%; /* make buttons readable & full width on phones */
+    width: 80%;          /* ✅ Full colored buttons */
+    max-width: 300px;    /* Keeps size consistent */
+    margin: 10px auto;   /* Centers the button */
+    display: block;
+  }
+
+  .sys-requirements,
+  .install-guide {
+    padding: 15px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
   }
 }
