@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Gaming Hub</title>
-  <!-- ✅ Go up one level to find css folder -->
   <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
   <!-- Header -->
- <div id="header"></div>
+  <div id="header"></div>
 
   <!-- Contact Section -->
   <section class="contact container">
@@ -38,9 +37,68 @@
     </form>
   </section>
 
+  <!-- ✅ Popup container -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <p id="popup-text"></p>
+    </div>
+  </div>
+
   <!-- Footer -->
   <div id="footer"></div>
 
-<script src="../js/main.js"></script>
+  <script>
+    document.querySelector(".contact-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const popup = document.getElementById("popup");
+      const popupText = document.getElementById("popup-text");
+
+      const showPopup = (text, success = true) => {
+        popupText.textContent = text;
+        popup.className = `popup ${success ? "success" : "error"}`;
+        popup.classList.remove("hidden");
+        setTimeout(() => popup.classList.add("hidden"), 3000);
+      };
+
+      if (!name || !email || !message) {
+        showPopup("❗Please fill in all fields.", false);
+        return;
+      }
+
+      const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"; // Replace with your bot token
+      const ADMIN_CHAT_ID = "-1003030763258"; // Keep the negative sign
+
+      const text = `
+📬 *New Contact Message!*
+
+👤 *Name:* ${name}
+📧 *Email:* ${email}
+💬 *Message:* ${message}
+`;
+
+      try {
+        const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_id: ADMIN_CHAT_ID, text, parse_mode: "Markdown" }),
+        });
+
+        if (res.ok) {
+          showPopup("✅ Message sent successfully!");
+          document.querySelector(".contact-form").reset();
+        } else {
+          showPopup("⚠️ Failed to send message. Try again later.", false);
+        }
+      } catch {
+        showPopup("❌ Network error. Try again later.", false);
+      }
+    });
+  </script>
+
+  <script src="../js/main.js"></script>
 </body>
 </html>

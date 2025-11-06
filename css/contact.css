@@ -1,106 +1,29 @@
-
-/* Reset */
+/* === RESET === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background: #121212;
+  background: #0c0c0c;
   color: #f1f1f1;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
-/* Header */
-header {
-  background: #111; /* dark background */
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 5%;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-header nav ul li a {
-  color: #00ff88; /* green links */
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-header nav ul li a:hover {
-  color: #00ff88; /* brighter green on hover */
-}
-
-/* Game Details Section */
-.game-details {
-  width: 50%;
-  max-width: 180px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #1c1c1c;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
-}
-
-.game-details h2 {
-  margin-bottom: 20px;
-  color: #00ff88;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.game-cover {
-  display: block;
-  width: 100%;
-  max-width: 180px;
-  margin: 0 auto 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
-}
-
-.game-details p {
-  margin-bottom: 15px;
-  font-size: 1rem;
-}
-
-.game-details ul {
-  list-style: none;
-  margin-bottom: 20px;
-}
-
-.game-details ul li {
-  background: #2a2a2a;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 0.95rem;
-}
-/* Contact Section */
+/* === CONTACT SECTION === */
 .contact {
   width: 90%;
-  max-width: 180px;
-  margin: 50px auto;
-  padding: 20px;
-  background: #1c1c1c;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background: linear-gradient(145deg, #1a1a1a, #111);
+  border: 2px solid #00ff88;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 136, 0.3);
+  backdrop-filter: blur(5px);
 }
 
 .contact h2 {
@@ -108,60 +31,131 @@ header nav ul li a:hover {
   font-size: 2rem;
   margin-bottom: 15px;
   color: #00ff88;
+  text-shadow: 0 0 10px #00ff88;
 }
 
 .contact .intro {
   text-align: center;
-  margin-bottom: 30px;
-  color: #bbb;
+  margin-bottom: 35px;
+  color: #aaa;
+  font-size: 0.95rem;
 }
 
+/* === FORM STYLING === */
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-form label {
-  display: block;
+  width: 100%;
+  max-width: 400px;
   font-weight: bold;
-  margin-bottom: 8px;
   color: #00ccff;
+  margin-bottom: 8px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 50%;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  background: #2a2a2a;
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 15px;
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+  background: #1c1c1c;
   color: #fff;
   font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+  transition: all 0.3s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
+  background: #222;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
   outline: none;
-  background: #333;
-  border: 1px solid #00ff88;
 }
 
+/* === SUBMIT BUTTON === */
 .btn {
   display: block;
-  width: 50%;
-  padding: 12px;
-  background: #00ff88;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 14px;
+  background: linear-gradient(90deg, #00ff88, #00cc6a);
   color: #121212;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background: #00cc6a;
-  transform: translateY(-3px);
+  transform: translateY(-3px) scale(1.02);
+  background: linear-gradient(90deg, #00cc6a, #00ff88);
+  box-shadow: 0 0 25px rgba(0, 255, 136, 0.6);
 }
 
+/* === POPUP NOTIFICATIONS === */
+.popup {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #fff;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all 0.4s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+}
+
+.popup.success {
+  background: linear-gradient(135deg, #00ff88, #00cc6a);
+  color: #111;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+.popup.error {
+  background: linear-gradient(135deg, #ff3c3c, #b40000);
+  box-shadow: 0 0 20px rgba(255, 60, 60, 0.5);
+}
+
+.popup.hidden {
+  opacity: 0;
+  transform: translateY(-15px);
+  pointer-events: none;
+}
+
+.popup:not(.hidden) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  .contact {
+    padding: 25px;
+  }
+
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .btn {
+    max-width: 100%;
+  }
+}
