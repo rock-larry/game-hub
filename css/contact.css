@@ -129,7 +129,7 @@ header nav ul li a:hover {
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: none;
   border-radius: 8px;
