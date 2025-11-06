@@ -50,8 +50,8 @@ header nav ul li a:hover {
 
 /* Game Details Section */
 .game-details {
-  width: 90%;
-  max-width: 300px;
+  width: 50%;
+  max-width: 180px;
   margin: 40px auto;
   padding: 20px;
   background: #1c1c1c;
@@ -95,7 +95,7 @@ header nav ul li a:hover {
 /* Contact Section */
 .contact {
   width: 90%;
-  max-width: 700px;
+  max-width: 180px;
   margin: 50px auto;
   padding: 20px;
   background: #1c1c1c;
