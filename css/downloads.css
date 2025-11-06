@@ -145,6 +145,6 @@ body {
   }
 
   .download-list a {
-    width: 10%;
+    width: 80%; /* make buttons readable & full width on phones */
   }
 }
