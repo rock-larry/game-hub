@@ -42,5 +42,51 @@
 
 <script src="/game-hub/js/main.js"></script>
   <div id="footer"></div>
+
+
+  <script>
+document.getElementById("requestForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const game = document.getElementById("game").value;
+  const platform = document.getElementById("platform").value;
+  const message = document.getElementById("message").value;
+
+  // ⚙️ Replace with your own bot token and chat ID
+  const BOT_TOKEN = "8406551927:AAEE1z-gUlZJwsdZ5bOl95f1lcgxcIWs0q0";
+  const ADMIN_CHAT_ID = "-1003030763258";
+
+  const text = `
+🎮 *New Game Request!*
+
+👤 *Name:* ${name}
+📧 *Email:* ${email}
+🕹 *Game:* ${game}
+💻 *Platform:* ${platform}
+📝 *Message:* ${message || "N/A"}
+`;
+
+  try {
+    await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: ADMIN_CHAT_ID,
+        text: text,
+        parse_mode: "Markdown"
+      }),
+    });
+
+    alert("✅ Your request has been sent! We'll review it soon.");
+    document.getElementById("requestForm").reset();
+  } catch (error) {
+    alert("❌ Something went wrong. Please try again later.");
+    console.error(error);
+  }
+});
+</script>
+
 </body>
 </html>
