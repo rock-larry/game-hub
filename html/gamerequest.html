@@ -56,6 +56,8 @@ document.getElementById("requestForm").addEventListener("submit", async (e) => {
     message: document.getElementById("message").value
   };
 
+  
+
   try {
     const res = await fetch("http://127.0.0.1:5000/send_request", {
       method: "POST",
@@ -78,6 +80,6 @@ document.getElementById("requestForm").addEventListener("submit", async (e) => {
 
 <script src="/game-hub/js/main.js"></script>
   <div id="footer"></div>
-  
+
 </body>
 </html>
