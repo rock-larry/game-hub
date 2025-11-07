@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="/game-hub/images/logo1.ico" type="image/png">
+  <link rel="icon" href="../images/logo1.ico" type="image/png">
   <title>Game Request | GameVault</title>
-  <link rel="stylesheet" href="/game-hub/css/gamerequest.css">
+  <link rel="stylesheet" href="../css/gamerequest.css">
 </head>
 <body>
   
-    <div id="header"></div>
+  <div id="header"></div>
 
   <section class="request-section">
     <h1>🎯 Request a Game</h1>
@@ -41,44 +41,40 @@
     </form>
   </section>
 
-
-
-
   <script>
-document.getElementById("requestForm").addEventListener("submit", async (e) => {
-  e.preventDefault();
+    document.getElementById("requestForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
 
-  const payload = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    game: document.getElementById("game").value,
-    platform: document.getElementById("platform").value,
-    message: document.getElementById("message").value
-  };
+      const payload = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        game: document.getElementById("game").value,
+        platform: document.getElementById("platform").value,
+        message: document.getElementById("message").value
+      };
 
-  
+      try {
+        // Send request to your bot's internal Flask server
+        const res = await fetch("http://127.0.0.1:5000/send_request", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
 
-  try {
-    const res = await fetch("http://127.0.0.1:5000/send_request", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
+        if (res.ok) {
+          alert("✅ Your request has been sent! We'll review it soon.");
+          document.getElementById("requestForm").reset();
+        } else {
+          alert("⚠️ Failed to send request. Try again later.");
+        }
+      } catch (err) {
+        console.error(err);
+        alert("❌ Network error. Please try again later.");
+      }
     });
+  </script>
 
-    if (res.ok) {
-      alert("✅ Your request has been sent! We'll review it soon.");
-      document.getElementById("requestForm").reset();
-    } else {
-      alert("⚠️ Failed to send request. Try again later.");
-    }
-  } catch (err) {
-    console.error(err);
-    alert("❌ Network error. Please try again later.");
-  }
-});
-</script>
-
-<script src="/game-hub/js/main.js"></script>
+  <script src="../js/main.js"></script>
   <div id="footer"></div>
 
 </body>
