@@ -42,37 +42,33 @@
   </section>
 
   <script>
-    document.getElementById("requestForm").addEventListener("submit", async (e) => {
-      e.preventDefault();
+document.getElementById("requestForm").addEventListener("submit", (e) => {
+  e.preventDefault();
 
-      const payload = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        game: document.getElementById("game").value,
-        platform: document.getElementById("platform").value,
-        message: document.getElementById("message").value
-      };
+  const payload = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    game: document.getElementById("game").value,
+    platform: document.getElementById("platform").value,
+    message: document.getElementById("message").value
+  };
 
-      try {
-        // Send request to your bot's internal Flask server
-        const res = await fetch("http://127.0.0.1:5000/send_request", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
+  // Save the request locally (bot.py will read it)
+  fetch("/save_request", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload)
+  })
+  .then(() => {
+    alert("✅ Your request has been sent!");
+    document.getElementById("requestForm").reset();
+  })
+  .catch(() => {
+    alert("❌ Failed to send request. Please try again.");
+  });
+});
+</script>
 
-        if (res.ok) {
-          alert("✅ Your request has been sent! We'll review it soon.");
-          document.getElementById("requestForm").reset();
-        } else {
-          alert("⚠️ Failed to send request. Try again later.");
-        }
-      } catch (err) {
-        console.error(err);
-        alert("❌ Network error. Please try again later.");
-      }
-    });
-  </script>
 
   <script src="../js/main.js"></script>
   <div id="footer"></div>
