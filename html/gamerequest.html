@@ -42,7 +42,7 @@
   </section>
 
   <script>
-document.getElementById("requestForm").addEventListener("submit", (e) => {
+document.getElementById("requestForm").addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const payload = {
@@ -53,21 +53,28 @@ document.getElementById("requestForm").addEventListener("submit", (e) => {
     message: document.getElementById("message").value
   };
 
-  // Save the request locally (bot.py will read it)
-  fetch("/save_request", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload)
-  })
-  .then(() => {
-    alert("✅ Your request has been sent!");
-    document.getElementById("requestForm").reset();
-  })
-  .catch(() => {
-    alert("❌ Failed to send request. Please try again.");
-  });
+  try {
+    const res = await fetch("/save_request", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    const data = await res.json();
+
+    if (data.status === "ok") {
+      alert("✅ Your request has been sent! We'll review it soon.");
+      document.getElementById("requestForm").reset();
+    } else {
+      alert("⚠️ Failed to send request. Try again later.");
+    }
+  } catch (err) {
+    console.error("Error submitting form:", err);
+    alert("❌ Network error. Please try again later.");
+  }
 });
 </script>
+
 
 
   <script src="js/main.js"></script>
