@@ -20,7 +20,8 @@ app = Flask(
     static_folder=PROJECT_ROOT,
     static_url_path="/"
 )
-CORS(app)
+CORS(app, origins=["https://your-github-username.github.io"])
+
 
 # Serve the main HTML
 @app.route("/")
