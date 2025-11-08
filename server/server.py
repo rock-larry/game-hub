@@ -17,8 +17,8 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))  # server/.. = project
 #   - static_url_path: what URL path maps to static_folder
 app = Flask(
     __name__,
-    static_folder=PROJECT_ROOT,
-    static_url_path="/"
+    static_folder="path/to/game-hub",
+    static_url_path="/game-hub"
 )
 CORS(app, origins=["https://your-github-username.github.io"])
 
