@@ -13,7 +13,7 @@ ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
 # ----------------------------
 # Path to the web folder
 # ----------------------------
-WEB_FOLDER = os.path.join(os.path.dirname(__file__), "..", "web")
+WEB_FOLDER = os.path.join(os.path.dirname(__file__), "..", "game-hub")
 
 # ----------------------------
 # Create the Flask app
@@ -57,3 +57,4 @@ def send_request():
 # ----------------------------
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+print("WEB_FOLDER is:", WEB_FOLDER)
