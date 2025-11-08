@@ -54,7 +54,7 @@ document.getElementById("requestForm").addEventListener("submit", async (e) => {
   };
 
   try {
-    const res = await fetch("/save_request", {
+    const res = await fetch("https://game-hub-ike5.onrender.com/save_request", {  // 🔹 use full backend URL
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
@@ -74,6 +74,7 @@ document.getElementById("requestForm").addEventListener("submit", async (e) => {
   }
 });
 </script>
+
 
 
 

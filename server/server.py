@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, jsonify
 import requests
 from dotenv import load_dotenv
+from flask_cors import CORS # type: ignore
 
 # Load .env variables
 load_dotenv()
@@ -19,6 +20,7 @@ app = Flask(
     static_folder=PROJECT_ROOT,
     static_url_path="/"
 )
+CORS(app)
 
 # Serve the main HTML
 @app.route("/")
