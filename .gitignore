@@ -19,3 +19,7 @@ node_modules/
 # Ignore build artifacts
 dist/
 build/
+
+
+server/.env
+server/__pycache__/
