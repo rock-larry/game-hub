@@ -1,59 +1,55 @@
 [
   {
-  "id": "alanwake2",
-  "title": "Alan Wake 2",
-  "description": "Alan Wake 2 is a survival horror game that combines intense psychological terror with a meta-narrative, following two protagonists: FBI agent Saga Anderson, who investigates ritualistic murders in the Pacific Northwest, and author Alan Wake, who is trapped in a nightmarish alternate dimension called the Dark Place. Players must survive by using light against supernatural enemies, solving puzzles, and exploring two contrasting worlds—the picturesque but corrupted Bright Falls and the terrifying, reality-bending Dark Place.",
-  "image": "../images/alanwake.jpg",
-  "Re_system_requirements": [
-    "CPU: Core i7-11700K / Ryzen 7 3700X",
-    "RAM: 16 GB",
-    "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-    "DEDICATED VIDEO RAM: 8192 MB",
-    "PIXEL SHADER: 5.1",
-    "VERTEX SHADER: 5.1",
-    "OS: Windows 10/11 64-bit",
-    "FREE DISK SPACE: 90 GB"
-  ],
-  "Min_system_requirements": [
-    "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-    "RAM: 16 GB",
-    "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-    "DEDICATED VIDEO RAM: 6144 MB",
-    "PIXEL SHADER: 5.1",
-    "VERTEX SHADER: 5.1",
-    "OS: Windows 10/11 64-bit",
-    "FREE DISK SPACE: 90 GB"
-  ],
-  "download_links": [
-    {
-      "name": "Download",
-      "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Alan_wake_2"
-    }
-  ]
-},
-
+    "id": "alanwake2",
+    "title": "Alan Wake 2",
+    "description": "Alan Wake 2 is a survival horror game that combines intense psychological terror with a meta-narrative, following two protagonists: FBI agent Saga Anderson, who investigates ritualistic murders in the Pacific Northwest, and author Alan Wake, who is trapped in a nightmarish alternate dimension called the Dark Place. Players must survive by using light against supernatural enemies, solving puzzles, and exploring two contrasting worlds—the picturesque but corrupted Bright Falls and the terrifying, reality-bending Dark Place.",
+    "image": "../images/alanwake.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      "DEDICATED VIDEO RAM: 6144 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Alan_wake_2"
+      }
+    ]
+  },
   {
     "id": "assassinscreed2",
     "title": "Assassin's Creed 2",
     "description": "Assassin's Creed II is an action-adventure game played from a third-person perspective and set in an open world based on late 15th-century Renaissance Italy. Gameplay is nonlinear, and focuses on hack and slash combat, stealth, and exploration.",
     "image": "../images/assassinscreed2.JPG",
     "Re_system_requirements": [
-     "CPU: Intel Core 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better",
-    "RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
-    "VIDEO CARD: NVIDIA GeForce 8800 GT or ATI Radeon HD 4700 or better",
-    "TOTAL VIDEO RAM: 512 MB",
-    "PIXEL SHADER: 3.0",
-    "VERTEX SHADER: 3.0",
-    "HARDWARE T&L: Yes",
-    "DIRECTX VERSION: DirectX 9.0",
-    "OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
-    "FREE DISK SPACE: 8 GB",
-    "SOUND CARD: Yes",
-    "DVD-ROM: Yes"
-
-
+      "CPU: Intel Core 2 Duo E6700 2.6 GHz or AMD Athlon 64 X2 6000+ or better",
+      "RAM: 1.5 GB Windows XP / 2 GB Windows Vista - Windows 7",
+      "VIDEO CARD: NVIDIA GeForce 8800 GT or ATI Radeon HD 4700 or better",
+      "TOTAL VIDEO RAM: 512 MB",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "HARDWARE T&L: Yes",
+      "DIRECTX VERSION: DirectX 9.0",
+      "OS: Windows XP (32 and 64 bit) / Windows Vista (32 and 64 bit) / Windows 7 (32 and 64 bit)",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes",
+      "DVD-ROM: Yes"
     ],
-    
     "Min_system_requirements": [
       "CPU: Intel Core 2 Duo 1.8 GHz or AMD Athlon 64 X2 2.4 GHz",
       "CPU SPEED: Intel Core 2 Duo 1.8 GHz or AMD Athlon 64 X2 2.4 GHz",
@@ -68,7 +64,6 @@
       "FREE DISK SPACE: 8 GB",
       "SOUND CARD: Yes",
       "DVD-ROM: Yes"
-
     ],
     "download_links": [
       {
@@ -77,15 +72,14 @@
       }
     ]
   },
-
   {
     "id": "assassinscreed3",
     "title": "Assassin's Creed 3",
     "description": "Assassin's Creed 3 is an action-adventure game set during the American Revolution where you play as Connor, a Native American assassin. He fights against the Templars amidst the conflict between the American colonists and the British, using a blend of traditional weapons like tomahawks and firearms. The game features a vast, new open world with both city and frontier environments, enhanced by a new engine that brought new physics, animation, and weather systems. It also introduces naval combat and an updated multiplayer mode. ",
     "image": "../images/assassinscreed.JPG",
     "Re_system_requirements": [
-     "CPU: 2.6 GHz Intel Core 2 Quad Q9400 or 3.0 GHz AMD Phenom II X4 940",
-     "CPU SPEED: Info",
+      "CPU: 2.6 GHz Intel Core 2 Quad Q9400 or 3.0 GHz AMD Phenom II X4 940",
+      "CPU SPEED: Info",
       "RAM: 4 GB",
       "VIDEO CARD: 1024 MB DirectX 10 compliant with Shader Model 5.0 or higher (GeForce GTX 460 or Radeon HD 6850)",
       "DEDICATED VIDEO RAM: 1024 MB",
@@ -94,8 +88,6 @@
       "OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
       "FREE DISK SPACE: 17 GB",
       "SOUND CARD: Yes"
-
-
     ],
     "Min_system_requirements": [
       "CPU: 2.66 GHz Intel Core 2 Duo E8200 or 2.66 GHz AMD Athlon II X4 620",
@@ -108,8 +100,6 @@
       "OS: Windows Vista (SP2) / Windows 7 (SP1) / Windows 8",
       "FREE DISK SPACE: 17 GB",
       "SOUND CARD: Yes"
-
-
     ],
     "download_links": [
       {
@@ -118,13 +108,12 @@
       }
     ]
   },
-
- {
+  {
     "id": "alienshooter",
     "title": "Alien Shooter",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/alienshooter2.jpg",
-   "Re_system_requirements": [
+    "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
@@ -133,16 +122,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -152,7 +140,6 @@
       }
     ]
   },
-
   {
     "id": "assassinscreed",
     "title": "Assassins creed ",
@@ -167,16 +154,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -186,7 +172,6 @@
       }
     ]
   },
-
   {
     "id": "codmw1",
     "title": "Call Of Duty - Modern Warfare 1",
@@ -201,16 +186,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -220,7 +204,6 @@
       }
     ]
   },
-
   {
     "id": "attackontitans",
     "title": "Attack On Titans",
@@ -235,16 +218,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -253,47 +235,41 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_gta5"
       }
     ]
- 
-  
   },
-
-[
-  {
-    "id": "assassinscreedblackflag",
-    "title": "Assassin's Creed Blackflag",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/assassinscreedblackflag.jpg",
-    "Re_system_requirements": [
-      "CPU: Core i7-11700K / Ryzen 7 3700X",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-      "DEDICATED VIDEO RAM: 8192 MB",
-      "PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      "OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
-
-    ],
-    "Min_system_requirements": [
-      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
-    ],
-    "download_links": [
-      {
-        "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Assassin_Creed_BlackFlag"
-      }
-    ]
-  }
-
-],
-
+  [
+    {
+      "id": "assassinscreedblackflag",
+      "title": "Assassin's Creed Blackflag",
+      "description": "An open-world crime adventure game set in the city of Los Santos.",
+      "image": "../images/assassinscreedblackflag.jpg",
+      "Re_system_requirements": [
+        "CPU: Core i7-11700K / Ryzen 7 3700X",
+        "RAM: 16 GB",
+        "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+        "DEDICATED VIDEO RAM: 8192 MB",
+        "PIXEL SHADER: 5.1",
+        "VERTEX SHADER: 5.1",
+        "OS: Windows 10/11 64-bit",
+        "FREE DISK SPACE: 90 GB"
+      ],
+      "Min_system_requirements": [
+        "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+        "RAM: 16 GB",
+        "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+        " DEDICATED VIDEO RAM: 6144 MB",
+        " PIXEL SHADER: 5.1",
+        "VERTEX SHADER: 5.1",
+        " OS: Windows 10/11 64-bit",
+        "FREE DISK SPACE: 90 GB"
+      ],
+      "download_links": [
+        {
+          "name": "Download",
+          "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Assassin_Creed_BlackFlag"
+        }
+      ]
+    }
+  ],
   {
     "id": "assassincreed3remestered",
     "title": "Assassin's Creed III Remestered",
@@ -308,16 +284,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -327,8 +302,6 @@
       }
     ]
   },
-
-  
   {
     "id": "assassinscreedchronicles",
     "title": "Assassin's Creed Chronicles",
@@ -343,16 +316,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -362,8 +334,7 @@
       }
     ]
   },
-
-    {
+  {
     "id": "assassinscreedodyssey",
     "title": "Assassin's Creed Odyssey",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -377,16 +348,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -396,13 +366,12 @@
       }
     ]
   },
-
-      {
+  {
     "id": "assassinscreedorigins",
     "title": "Assassin's Creed Origins",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedorigins.jpg",
-   "Re_system_requirements": [
+    "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
@@ -411,16 +380,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -430,8 +398,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedrouge",
     "title": "Assassin's Creed Rouge",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -445,16 +412,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -464,8 +430,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedsyndicate",
     "title": "Assassin's Creed Syndicate",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -479,16 +444,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -498,8 +462,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedunity",
     "title": "Assassin's Creed Unity",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -513,16 +476,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -532,8 +494,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedvallhala",
     "title": "Assassin's Creed Vallhala",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -547,16 +508,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -566,8 +526,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedbrotherhood",
     "title": "Assassin's Creed Brotherhood",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -581,16 +540,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -600,8 +558,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "assassinscreedrevelations",
     "title": "Assassin's Creed Revelations",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -615,16 +572,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -634,8 +590,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": "gta3remasted",
     "title": "Grand Theft Auto 3 Remasted",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
@@ -649,16 +604,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -668,7 +622,6 @@
       }
     ]
   },
-
   {
     "id": "rottr",
     "title": "Rise Of The Tomb Raider",
@@ -683,16 +636,15 @@
       "VERTEX SHADER: 5.1",
       "OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
-
     ],
     "Min_system_requirements": [
       "CPU: Core i5-7600K / AMD Ryzen 5 1600",
       "RAM: 16 GB",
       "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-     " DEDICATED VIDEO RAM: 6144 MB",
-     " PIXEL SHADER: 5.1",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
       "VERTEX SHADER: 5.1",
-     " OS: Windows 10/11 64-bit",
+      " OS: Windows 10/11 64-bit",
       "FREE DISK SPACE: 90 GB"
     ],
     "download_links": [
@@ -701,6 +653,37 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Rise_Of_The_Tomb_Raider"
       }
     ]
+  },
+  {
+    "id": "batmanAA",
+    "title": "Batman Arkham Asylum",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/batmanAA",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Asylum"
+      }
+    ]
   }
-
 ]
