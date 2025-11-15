@@ -845,5 +845,421 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
       }
     ]
+  },
+  {
+    "id": "cod1",
+    "title": "Call Of Duty",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/cod1.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "cod2",
+    "title": "Call Of Duty - 2",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/cod2.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "cod4",
+    "title": "Call Of Duty - 4",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/cod4.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codaw",
+    "title": "Call Of Duty - Advanced Warfare",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codaw.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codghost",
+    "title": "Call Of Duty - Ghosts",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codghost.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codiw",
+    "title": "Call Of Duty - Infinite Warfare",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codiw.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codmwr",
+    "title": "Call Of Duty - Modern Warfare  Remastered",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/cod4r.jpeg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codmwr2",
+    "title": "Call Of Duty - Modern Warfare 2 Remastered",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/cod2r.jpeg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codmw3",
+    "title": "Call Of Duty - Modern Warfare 3",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codmw3.png",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codops1",
+    "title": "Call Of Duty - Black OPS 1",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codops1.png",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codops2",
+    "title": "Call Of Duty - Black OPS 2",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codops2.png",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codww",
+    "title": "Call Of Duty - World At War",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codww.png",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
+  },
+  {
+    "id": "codmw3",
+    "title": "Call Of Duty - World At War 2",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/codww2.png",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
   }
 ]
