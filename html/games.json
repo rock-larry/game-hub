@@ -685,5 +685,37 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Asylum"
       }
     ]
+  },
+  {
+    "id": "batmanAK",
+    "title": "Batman Arkham Knight",
+    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "image": "../images/batmanAK",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Batman_Arkham_Knight"
+      }
+    ]
   }
 ]
