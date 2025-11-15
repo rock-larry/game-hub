@@ -658,7 +658,7 @@
     "id": "batmanAA",
     "title": "Batman Arkham Asylum",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/batmanAA",
+    "image": "../images/batmanAA.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
@@ -690,7 +690,7 @@
     "id": "batmanAK",
     "title": "Batman Arkham Knight",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/batmanAK",
+    "image": "../images/batmanAK.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
