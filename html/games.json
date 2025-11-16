@@ -1042,7 +1042,7 @@
     "id": "codmwr",
     "title": "Call Of Duty - Modern Warfare  Remastered",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/cod4r.jpeg",
+    "image": "../images/codm4r.jpeg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
@@ -1231,10 +1231,10 @@
     ]
   },
   {
-    "id": "codmw2",
-    "title": "Call Of Duty - World At War 2",
+    "id": "codww2",
+    "title": "Call Of Duty - World At War II",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/codww2.png",
+    "image": "../images/codww2.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
