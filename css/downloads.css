@@ -40,6 +40,18 @@ body {
   box-shadow: 0 4px 15px rgba(0, 255, 153, 0.2);
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  /* ✅ Remove scrollbar on hover */
+}
+
+.game-card img {
+  width: 100px;
+  /* ✅ Smaller images */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
 }
 
 .game-card img:hover {
