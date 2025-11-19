@@ -154,39 +154,42 @@ body {
 }
 
 /* ===== Responsive Design ===== */
+
 @media (max-width: 768px) {
-  .game-card {
+  .game-card img {
+    width: 120px;
+    /* Slightly larger on mobile */
+    max-width: 120px;
+    overflow: hidden;
+    padding: 15px;
     flex-direction: column;
     text-align: center;
-    padding: 15px;
-    overflow: hidden;
-  }
-
-  .game-card img {
     width: 70%;
     max-width: 180px;
     /* ✅ Medium size on mobile */
     margin-bottom: 15px;
   }
+}
 
-  .game-info h3 {
-    font-size: 1.5rem;
-  }
 
-  .download-list a {
-    width: 80%;
-    max-width: 300px;
-    margin: 10px auto;
-    display: block;
-  }
 
-  .sys-requirements,
-  .install-guide {
-    padding: 15px;
-  }
+.game-info h3 {
+  font-size: 1.5rem;
+}
 
-  .container {
-    width: 95%;
-    padding: 10px;
-  }
+.download-list a {
+  width: 80%;
+  max-width: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+.sys-requirements,
+.install-guide {
+  padding: 15px;
+}
+
+.container {
+  width: 95%;
+  padding: 10px;
 }
