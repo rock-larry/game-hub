@@ -880,7 +880,7 @@
   },
   {
     "id": "cod2",
-    "title": "Call Of Duty - 2",
+    "title": "Call Of Duty - II",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/cod2.jpg",
     "Re_system_requirements": [
@@ -1104,7 +1104,7 @@
   },
   {
     "id": "codmw3",
-    "title": "Call Of Duty - Modern Warfare 3",
+    "title": "Call Of Duty - Modern Warfare III",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/codmw3.png",
     "Re_system_requirements": [
@@ -1136,7 +1136,7 @@
   },
   {
     "id": "codops1",
-    "title": "Call Of Duty - Black OPS 1",
+    "title": "Call Of Duty - Black OPS I",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/codops1.png",
     "Re_system_requirements": [
@@ -1264,9 +1264,9 @@
   },
   {
     "id": "codops3",
-    "title": "Call Of Duty - World At War 2",
+    "title": "Call Of Duty - Black OPS III",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/codops3.png",
+    "image": "../images/codops3.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
