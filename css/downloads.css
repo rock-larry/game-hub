@@ -147,6 +147,7 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 15px;
+    overflow: hidden;
   }
 
   .game-card img {
