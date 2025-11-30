@@ -1488,7 +1488,7 @@
     "id": "farcry6",
     "title": "Far Cry 6",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/fc6.avif",
+    "image": "../images/fc6.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
@@ -1552,7 +1552,7 @@
     "id": "farcryp",
     "title": "Far Cry Primal",
     "description": "An open-world crime adventure game set in the city of Los Santos.",
-    "image": "../images/fcp.jpg",
+    "image": "../images/fcp.avif",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
