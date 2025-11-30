@@ -199,7 +199,7 @@ body {
 .game-img {
   width: 100%;
   max-width: 380px;
-  height: auto;
+  height: 20000;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
