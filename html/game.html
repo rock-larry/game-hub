@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="/game-hub/images/logo1.ico" type="image/png">
@@ -41,25 +42,25 @@
         document.title = `Download - ${game.title}`;
         document.getElementById("page-title").textContent = `Download - ${game.title}`;
 
-       // Generate download links safely
-const links = Array.isArray(game.download_links)
-  ? game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("")
-  : "<li>No download links available.</li>";
+        // Generate download links safely
+        const links = Array.isArray(game.download_links)
+          ? game.download_links.map(l => `<li><a href="${l.url}" target="_blank">${l.name}</a></li>`).join("")
+          : "<li>No download links available.</li>";
 
-// Recommended system requirements
-const Re_sysreq = Array.isArray(game.Re_system_requirements)
-  ? game.Re_system_requirements.map(r => `<li>${r}</li>`).join("")
-  : "<li>Not available.</li>";
+        // Recommended system requirements
+        const Re_sysreq = Array.isArray(game.Re_system_requirements)
+          ? game.Re_system_requirements.map(r => `<li>${r}</li>`).join("")
+          : "<li>Not available.</li>";
 
-// Minimum system requirements
-const minsysreq = Array.isArray(game.Min_system_requirements)
-  ? game.Min_system_requirements.map(r => `<li>${r}</li>`).join("")
-  : "<li>Not available.</li>";
+        // Minimum system requirements
+        const minsysreq = Array.isArray(game.Min_system_requirements)
+          ? game.Min_system_requirements.map(r => `<li>${r}</li>`).join("")
+          : "<li>Not available.</li>";
 
-section.innerHTML = `
+        section.innerHTML = `
   <h2>Download ${game.title}</h2>
   <div class="game-card">
-    <img src="${game.image}" alt="${game.title}">
+<img src="${game.image}" alt="${game.title}" class="game-img">
   <div class="game-info">
       <h3>${game.title}</h3>
       <p>${game.description}</p>
@@ -97,4 +98,5 @@ section.innerHTML = `
       });
   </script>
 </body>
+
 </html>

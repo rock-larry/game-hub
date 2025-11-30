@@ -193,3 +193,21 @@ body {
   width: 95%;
   padding: 10px;
 }
+
+
+/* Default desktop size */
+.game-img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Mobile size */
+@media (max-width: 600px) {
+  .game-img {
+    max-width: 250px;
+  }
+}
