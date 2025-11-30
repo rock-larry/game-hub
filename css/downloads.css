@@ -41,33 +41,26 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* ✅ Remove scrollbar on hover */
 }
 
-.game-card img {
-  width: 100px;
-  /* ✅ Smaller images */
+/* ===== Main Game Image (fixed) ===== */
+.game-img {
+  width: 100%;
+  max-width: 250px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 12px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
 
-.game-card img:hover {
+.game-img:hover {
   transform: scale(1.05);
 }
 
-.game-card img {
-  width: 130px;
-  /* ✅ Medium image size */
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
-}
-
+/* ===== Game Info ===== */
 .game-info {
   flex: 1;
   min-width: 280px;
@@ -156,58 +149,31 @@ body {
 /* ===== Responsive Design ===== */
 
 @media (max-width: 768px) {
-  .game-card img {
-    width: 120px;
-    /* Slightly larger on mobile */
-    max-width: 120px;
-    overflow: hidden;
+  .game-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .download-list a {
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .sys-requirements,
+  .install-guide {
     padding: 15px;
-    flex-direction: column;
-    text-align: center;
-    width: 70%;
-    max-width: 180px;
-    /* ✅ Medium size on mobile */
-    margin-bottom: 15px;
   }
 }
 
-
-
-.game-info h3 {
-  font-size: 1.5rem;
-}
-
-.download-list a {
-  width: 80%;
-  max-width: 300px;
-  margin: 10px auto;
-  display: block;
-}
-
-.sys-requirements,
-.install-guide {
-  padding: 15px;
-}
-
-.container {
-  width: 95%;
-  padding: 10px;
-}
-
-
-/* Default desktop size */
-.game-img {
-  width: 10%;
-  max-width: 30px;
-  height: 20px;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Mobile size */
+/* Mobile image adjustment */
 @media (max-width: 600px) {
   .game-img {
-    max-width: 250px;
+    max-width: 200px;
   }
 }
