@@ -197,9 +197,9 @@ body {
 
 /* Default desktop size */
 .game-img {
-  width: 100%;
-  max-width: 380px;
-  height: 20000px;
+  width: 10%;
+  max-width: 30px;
+  height: 20px;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
