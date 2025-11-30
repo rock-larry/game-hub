@@ -45,7 +45,7 @@ body {
 
 /* ===== Main Game Image (fixed) ===== */
 .game-img {
-  width: 100%;
+  width: 50%;
   max-width: 250px;
   height: auto;
   border-radius: 12px;
