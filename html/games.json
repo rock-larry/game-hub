@@ -146,24 +146,30 @@
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreed.jpg",
     "Re_system_requirements": [
-      "CPU: Core i7-11700K / Ryzen 7 3700X",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-      "DEDICATED VIDEO RAM: 8192 MB",
-      "PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      "OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows XP / Windows Vista",
+      "CPU: Intel Core 2 Duo E6700 or AMD Athlon 64 X2 6000+",
+      "RAM: 2 GB",
+      "VIDEO CARD: 512 MB DirectX 10.0 compliant or DirectX 9.0 compliant with Shader Model 3.0 (GeForce 8800 GT / Radeon HD 2900 XT)",
+      "TOTAL VIDEO RAM: 512 MB",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "DIRECTX VERSION: DirectX 10.0",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes"
     ],
     "Min_system_requirements": [
-      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-      " DEDICATED VIDEO RAM: 6144 MB",
-      " PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      " OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows XP / Windows Vista",
+      "CPU: Dual core processor 2.6 GHz Intel Pentium D or AMD Athlon 64 X2 3800+",
+      "RAM: 1 GB (Windows XP) / 2 GB (Windows Vista)",
+      "VIDEO CARD: 256 MB DirectX 10.0 compliant or DirectX 9.0 compliant with Shader Model 3.0 (GeForce 6800+ / Radeon X1600+)",
+      "TOTAL VIDEO RAM: 256 MB",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "3D: Yes",
+      "HARDWARE T&L: Yes",
+      "DIRECTX VERSION: DirectX 9.0 or 10.0",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes"
     ],
     "download_links": [
       {
@@ -178,24 +184,28 @@
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/codmw2.jpeg",
     "Re_system_requirements": [
-      "CPU: Core i7-11700K / Ryzen 7 3700X",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-      "DEDICATED VIDEO RAM: 8192 MB",
-      "PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      "OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows XP / Windows Vista",
+      "CPU: Intel Pentium 4 3.0 GHz or better / AMD Athlon 64 3200+ or better",
+      "RAM: 1 GB (Windows XP) / 2 GB (Windows Vista)",
+      "VIDEO CARD: NVIDIA GeForce 7800 / ATI Radeon X1800 or better",
+      "TOTAL VIDEO RAM: 256 MB or higher",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "DIRECTX VERSION: DirectX 9.0c",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes"
     ],
     "Min_system_requirements": [
-      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-      " DEDICATED VIDEO RAM: 6144 MB",
-      " PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      " OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows XP / Windows Vista",
+      "CPU: Intel Pentium 4 2.4 GHz or AMD Athlon 64 2800+",
+      "RAM: 512 MB (Windows XP) / 768 MB (Windows Vista)",
+      "VIDEO CARD: NVIDIA GeForce 6600 / ATI Radeon 9800 Pro or better",
+      "TOTAL VIDEO RAM: 128 MB",
+      "PIXEL SHADER: 3.0",
+      "VERTEX SHADER: 3.0",
+      "DIRECTX VERSION: DirectX 9.0c",
+      "FREE DISK SPACE: 8 GB",
+      "SOUND CARD: Yes"
     ],
     "download_links": [
       {
@@ -243,24 +253,28 @@
       "description": "An open-world crime adventure game set in the city of Los Santos.",
       "image": "../images/assassinscreedblackflag.jpg",
       "Re_system_requirements": [
-        "CPU: Core i7-11700K / Ryzen 7 3700X",
-        "RAM: 16 GB",
-        "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-        "DEDICATED VIDEO RAM: 8192 MB",
-        "PIXEL SHADER: 5.1",
-        "VERTEX SHADER: 5.1",
-        "OS: Windows 10/11 64-bit",
-        "FREE DISK SPACE: 90 GB"
+        "OS: Windows Vista SP2 / Windows 7 SP1 / Windows 8 (64-bit)",
+        "CPU: Intel Core i5 2400s @ 2.5 GHz or AMD FX-4100 @ 3.6 GHz",
+        "RAM: 4 GB",
+        "VIDEO CARD: NVIDIA GeForce GTX 470 or AMD Radeon HD 5850",
+        "TOTAL VIDEO RAM: 1024 MB",
+        "PIXEL SHADER: 5.0",
+        "VERTEX SHADER: 5.0",
+        "DIRECTX VERSION: DirectX 11",
+        "FREE DISK SPACE: 30 GB",
+        "SOUND CARD: DirectX-compatible"
       ],
       "Min_system_requirements": [
-        "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-        "RAM: 16 GB",
-        "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-        " DEDICATED VIDEO RAM: 6144 MB",
-        " PIXEL SHADER: 5.1",
-        "VERTEX SHADER: 5.1",
-        " OS: Windows 10/11 64-bit",
-        "FREE DISK SPACE: 90 GB"
+        "OS: Windows Vista SP2 / Windows 7 SP1 / Windows 8 (64-bit only)",
+        "CPU: Intel Core2Quad Q8400 @ 2.6 GHz or AMD Athlon II X4 620 @ 2.6 GHz",
+        "RAM: 2 GB",
+        "VIDEO CARD: NVIDIA GeForce GTX 260 or AMD Radeon HD 4870",
+        "TOTAL VIDEO RAM: 512 MB",
+        "PIXEL SHADER: 4.0",
+        "VERTEX SHADER: 4.0",
+        "DIRECTX VERSION: DirectX 11",
+        "FREE DISK SPACE: 30 GB",
+        "SOUND CARD: DirectX-compatible"
       ],
       "download_links": [
         {
@@ -404,24 +418,28 @@
     "description": "An open-world crime adventure game set in the city of Los Santos.",
     "image": "../images/assassinscreedrouge.jpg",
     "Re_system_requirements": [
-      "CPU: Core i7-11700K / Ryzen 7 3700X",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
-      "DEDICATED VIDEO RAM: 8192 MB",
-      "PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      "OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows 7 / Windows 8",
+      "CPU: Intel Core 2 Duo E8200 or AMD Athlon II X2 250",
+      "RAM: 2 GB",
+      "VIDEO CARD: NVIDIA GeForce 8800 / ATI Radeon HD 3800",
+      "TOTAL VIDEO RAM: 512 MB",
+      "PIXEL SHADER: 4.0",
+      "VERTEX SHADER: 4.0",
+      "DIRECTX VERSION: DirectX 10",
+      "FREE DISK SPACE: 20 GB",
+      "SOUND CARD: Yes"
     ],
     "Min_system_requirements": [
-      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
-      "RAM: 16 GB",
-      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
-      " DEDICATED VIDEO RAM: 6144 MB",
-      " PIXEL SHADER: 5.1",
-      "VERTEX SHADER: 5.1",
-      " OS: Windows 10/11 64-bit",
-      "FREE DISK SPACE: 90 GB"
+      "OS: Windows 7 / Windows 8",
+      "CPU: Intel Core i7-3770 or AMD FX-8350",
+      "RAM: 4 GB",
+      "VIDEO CARD: NVIDIA GeForce GTX 560 / ATI Radeon HD 7850",
+      "TOTAL VIDEO RAM: 1024 MB",
+      "PIXEL SHADER: 5.0",
+      "VERTEX SHADER: 5.0",
+      "DIRECTX VERSION: DirectX 11",
+      "FREE DISK SPACE: 20 GB",
+      "SOUND CARD: Yes"
     ],
     "download_links": [
       {
