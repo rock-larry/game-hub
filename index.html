@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="icon" href="images/logo1.ico" type="image/png"> 
+  <link rel="icon" href="images/logo1.ico" type="image/png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GameVault - Download Games</title>
   <link rel="stylesheet" href="css/style.css">
+  <!--INLINE CSS FOR POP UP MESSAGE ON THE HOMEPAGE-->
+  <style>
+    /* Popup container */
+    #constructionPopup {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      font-family: Arial, sans-serif;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    /* Show popup */
+    #constructionPopup.show {
+      opacity: 1;
+    }
+
+    /* Close button */
+    #constructionPopup button {
+      margin-left: 15px;
+      padding: 5px 10px;
+      border: none;
+      background: #000;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
 </head>
+
 <body>
   <!-- Navigation Bar -->
 
- <div id="header"></div>
+  <div id="header"></div>
+
+  <div id="constructionPopup">
+    ⚠️ This site is still under construction!
+    <button id="closePopup">Close</button>
+  </div>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -26,7 +67,8 @@
         <img src="images/gta3remasted.jpg" alt="Game 1">
         <h3>Grand Theft Auto 3 Remastered</h3>
         <p>Futuristic action-packed adventure.</p>
-        <a href="https://t.me/GrandTheftAuto3_Bot?start=game_Grand_Theft_Auto_3_Definite_Edition" class="btn">Download</a>
+        <a href="https://t.me/GrandTheftAuto3_Bot?start=game_Grand_Theft_Auto_3_Definite_Edition"
+          class="btn">Download</a>
 
       </div>
 
@@ -35,7 +77,7 @@
         <h3>Rise Of The Tomb Raider</h3>
         <p>Tr Games</p>
         <a href="/game-hub/html/game.html?id=rottr" class="btn">Download</a>
-        
+
       </div>
 
       <div class="game-card">
@@ -48,11 +90,36 @@
     </div>
   </section>
 
-<div id="footer"></div>
+  <div id="footer"></div>
 
   <script src="js/games.json"></script>
-  
+
+
+
   <script src="js/main.js"></script>
-  
+
+  <!-- INLINE JAVACSCRIPT FOR THE POP UP MESSAGE IN HOMEPAGE -->
+  <script>
+    // Get popup element
+    const popup = document.getElementById('constructionPopup');
+    const closeBtn = document.getElementById('closePopup');
+
+    // Show popup after page load
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        popup.classList.add('show'); // Fade-in
+      }, 500); // delay optional
+    });
+
+    // Close popup on button click with fade-out
+    closeBtn.addEventListener('click', () => {
+      popup.classList.remove('show'); // Fade-out
+      setTimeout(() => {
+        popup.style.display = 'none';
+      }, 500); // Wait for fade-out transition
+    });
+  </script>
+
 </body>
+
 </html>
