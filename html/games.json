@@ -1423,7 +1423,7 @@
   {
     "id": "farcry4",
     "title": "Far Cry 4",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry 4 is an open-world action-adventure game set in the Himalayan region of Kyrat. Play as Ajay Ghale, navigate a land torn by civil war, take on a ruthless warlord, and explore a vast world filled with wildlife, mountains, and intense combat.",
     "image": "../images/fc4.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1455,7 +1455,7 @@
   {
     "id": "farcry5",
     "title": "Far Cry 5",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry 5 is an open-world first-person shooter set in rural Montana. As a rookie deputy, you fight against a dangerous doomsday cult, liberate towns, and explore a vast world filled with intense combat and survival challenges.",
     "image": "../images/fc5.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1487,7 +1487,7 @@
   {
     "id": "farcry6",
     "title": "Far Cry 6",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry 6 is an open-world action-adventure game set in the fictional Caribbean nation of Yara. Play as guerrilla fighter Dani Rojas, overthrow a brutal dictator, and engage in explosive combat across lush landscapes and vibrant cities.",
     "image": "../images/fc6.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1519,7 +1519,7 @@
   {
     "id": "farcrynd",
     "title": "Far Cry New Dawn",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry New Dawn is an action-packed open-world shooter set in a post-apocalyptic Montana. Team up, fight ruthless gangs, scavenge resources, and rebuild your community in a colorful yet dangerous world.",
     "image": "../images/fcnd.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1551,7 +1551,7 @@
   {
     "id": "farcryp",
     "title": "Far Cry Primal",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry Primal is an open-world action game set in prehistoric times. Play as Takkar, a lone hunter, and survive a world full of dangerous animals, rival tribes, and harsh landscapes using primitive weapons and cunning strategies.",
     "image": "../images/fcp.avif",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1583,7 +1583,7 @@
   {
     "id": "narutons",
     "title": "Naruto Ultimate Ninja Storm",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Naruto: Ultimate Ninja Storm is a fast-paced anime fighting game that lets you battle through the early Naruto story with stunning visuals and cinematic jutsu. Explore Konoha, fight iconic rivals, and unleash powerful ninja techniques in vibrant, action-packed combat.",
     "image": "../images/narutostorm.webp",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1615,7 +1615,7 @@
   {
     "id": "narutons2",
     "title": "Naruto Ultimate Ninja Storm 2",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Naruto Shippuden: Ultimate Ninja Storm 2 features dynamic ninja battles, an emotional story, and a wide roster of characters from the Shippuden series. Journey through iconic moments, face powerful bosses, and unleash stunning jutsu in this fast-paced anime fighting adventure.",
     "image": "../images/storm2.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
