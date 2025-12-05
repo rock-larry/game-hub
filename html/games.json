@@ -879,7 +879,7 @@
   {
     "id": "cod1",
     "title": "Call Of Duty",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty is a first-person shooter set during World War II, placing you in the boots of soldiers fighting on multiple fronts. Experience intense combat, cinematic missions, and immersive historical battles.",
     "image": "../images/cod1.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -911,7 +911,7 @@
   {
     "id": "cod2",
     "title": "Call Of Duty - II",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty II is a World War II first-person shooter that puts you on the frontlines of epic battles across Europe and North Africa. Experience intense combat, historical missions, and immersive battlefield action.",
     "image": "../images/cod2.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -943,7 +943,7 @@
   {
     "id": "cod4",
     "title": "Call Of Duty - 4",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty 4: Modern Warfare is a groundbreaking first-person shooter set in a modern combat environment. Experience cinematic single-player missions, intense multiplayer battles, and a story that defined a generation of warfare games.",
     "image": "../images/cod4.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -975,7 +975,7 @@
   {
     "id": "codaw",
     "title": "Call Of Duty - Advanced Warfare",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Advanced Warfare is a futuristic first-person shooter where players use advanced exoskeletons and high-tech weaponry to dominate the battlefield. Experience a cinematic single-player campaign, intense multiplayer combat, and explosive action.",
     "image": "../images/codaw.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1007,7 +1007,7 @@
   {
     "id": "codghost",
     "title": "Call Of Duty - Ghosts",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Ghosts is a first-person shooter set in a post-apocalyptic world. Join an elite squad of soldiers, fight in dynamic battlefields, and experience an intense single-player campaign, multiplayer modes, and cooperative missions.",
     "image": "../images/codghost.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1039,7 +1039,7 @@
   {
     "id": "codiw",
     "title": "Call Of Duty - Infinite Warfare",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Infinite Warfare is a futuristic first-person shooter set in space. Command advanced spacecraft, engage in high-tech combat, and experience a cinematic single-player campaign along with intense multiplayer battles.",
     "image": "../images/codiw.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1071,7 +1071,7 @@
   {
     "id": "codmwr",
     "title": "Call Of Duty - Modern Warfare  Remastered",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Modern Warfare Remastered is a first-person shooter that brings the classic Modern Warfare campaign to life with fully enhanced graphics and sound. Experience intense modern combat, cinematic missions, and unforgettable action.s",
     "image": "../images/codm4r.jpeg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1103,7 +1103,7 @@
   {
     "id": "codmwr2",
     "title": "Call Of Duty - Modern Warfare 2 Remastered",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Modern Warfare 2 Remastered is a high-octane first-person shooter featuring the fully remastered campaign. Relive the iconic missions with enhanced graphics, cinematic storytelling, and intense modern combat.",
     "image": "../images/cod2r.jpeg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1135,7 +1135,7 @@
   {
     "id": "codmw3",
     "title": "Call Of Duty - Modern Warfare III",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Modern Warfare III is a fast-paced first-person shooter that continues the epic global conflict. Engage in cinematic single-player missions, intense multiplayer battles, and cooperative Special Ops missions across diverse warzones.",
     "image": "../images/codmw3.png",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
