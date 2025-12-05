@@ -1167,7 +1167,7 @@
   {
     "id": "codops1",
     "title": "Call Of Duty - Black OPS I",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Black Ops is a first-person shooter set during the Cold War. Play as elite operatives in covert missions, experience a gripping single-player story, and enjoy intense multiplayer and Zombies action.",
     "image": "../images/codops1.png",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1199,7 +1199,7 @@
   {
     "id": "codops2",
     "title": "Call Of Duty - Black OPS 2",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Black Ops II is a futuristic first-person shooter that blends near-future technology with classic Black Ops action. Engage in a gripping single-player campaign, intense multiplayer battles, and the fan-favorite Zombies mode.",
     "image": "../images/codops2.png",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1231,7 +1231,7 @@
   {
     "id": "codww",
     "title": "Call Of Duty - World At War",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: World at War is a World War II first-person shooter that plunges you into the brutal battles of the Pacific and Eastern Fronts. Experience intense combat, cinematic missions, and the iconic Nazi Zombies mode.",
     "image": "../images/codww.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1263,7 +1263,7 @@
   {
     "id": "codww2",
     "title": "Call Of Duty - World At War II",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: World at War is a World War II first-person shooter that takes you to the brutal battlefields of the Pacific and Eastern Front. Experience intense combat, cinematic missions, and the iconic Nazi Zombies mode in a gripping historical setting.",
     "image": "../images/codww2.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1295,7 +1295,7 @@
   {
     "id": "codops3",
     "title": "Call Of Duty - Black OPS III",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Call of Duty: Black Ops III is a futuristic first-person shooter featuring advanced combat, cybernetic enhancements, and a gripping single-player campaign. Engage in high-tech warfare across diverse battlefields and team up in multiplayer and cooperative modes for intense action.",
     "image": "../images/codops3.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1327,7 +1327,7 @@
   {
     "id": "farcry1",
     "title": "Far Cry",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry is a first-person shooter where you survive on a dangerous tropical island, battling mercenaries and uncovering a deadly conspiracy.",
     "image": "../images/fc1.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1359,7 +1359,7 @@
   {
     "id": "farcry2",
     "title": "Far Cry 2",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry 2 is an open-world first-person shooter set in a war-torn African country. Take on the role of a mercenary, navigate hostile territories, complete missions, and survive in a dynamic world filled with conflict, danger, and unpredictable events.",
     "image": "../images/fc2.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
@@ -1391,7 +1391,7 @@
   {
     "id": "farcry3",
     "title": "Far Cry 3",
-    "description": "An open-world crime adventure game set in the city of Los Santos.",
+    "description": "Far Cry 3 is an open-world first-person shooter set on a tropical island. Play as Jason Brody, survive against dangerous pirates and wildlife, rescue your friends, and fight to reclaim control in a thrilling, action-packed adventure.",
     "image": "../images/fc3.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
