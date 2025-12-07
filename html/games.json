@@ -1869,10 +1869,10 @@
     ]
   },
   {
-    "id": "nba2k19",
-    "title": "NBA 2K19",
+    "id": "SilkSong",
+    "title": "Hollow Knight Silk Song",
     "description": "NBA 2K19 is a realistic basketball simulation game by Visual Concepts, featuring deep modes like the story-driven MyCAREER, team management in MyGM, and fantasy card building in MyTEAM, with gameplay focused on refined mechanics, strategic playmaking, and career progression from China to the NBA, though heavily criticized for its microtransactions (VC) and grinding, despite acclaimed for its immersive presentation. ",
-    "image": "../images/nba2k19.jpg",
+    "image": "../images/silkimg.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
@@ -1896,7 +1896,7 @@
     "download_links": [
       {
         "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_NBA_2K19"
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Hollow_Kight_SilkSong"
       }
     ]
   }
