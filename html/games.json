@@ -1966,5 +1966,38 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Doom_Eternal"
       }
     ]
+  },
+  {
+      "id": "justCause2",
+    "title": "Just Cause 2",
+    "description": "NBA 2K19 is a realistic basketball simulation game by Visual Concepts, featuring deep modes like the story-driven MyCAREER, team management in MyGM, and fantasy card building in MyTEAM, with gameplay focused on refined mechanics, strategic playmaking, and career progression from China to the NBA, though heavily criticized for its microtransactions (VC) and grinding, despite acclaimed for its immersive presentation. ",
+    "image": "../images/justcause2.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Just_Cause_1"
+      }
+    ]
   }
+  
 ]
