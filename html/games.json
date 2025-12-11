@@ -1900,13 +1900,12 @@
       }
     ]
   },
-
-
   {
-    "id": "DoomEt",
-    "title": "DOOM ETERNAL",
-    "description": "DOOM Eternal is a brutal, fast-paced first-person shooter made by id Software and published by Bethesda Softworks — the direct sequel to the 2016 “reboot” of the franchise. You play as the badass warrior known as the Doom Slayer, and Earth’s been overrun by demons. Your mission? Tear through hellspawn, across dimensions, and stop the apocalypse before humanity gets vaporized.  ",
-    "image": "../images/doomet.jpg",
+    "id": "justCause1",
+    "title": "Just Cause 1",
+    "description": "NBA 2K19 is a realistic basketball simulation game by Visual Concepts, featuring deep modes like the story-driven MyCAREER, team management in MyGM, and fantasy card building in MyTEAM, with gameplay focused on refined mechanics, strategic playmaking, and career progression from China to the NBA, though heavily criticized for its microtransactions (VC) and grinding, despite acclaimed for its immersive presentation. ",
+    "image": "../images/justcause1.jpg",
+
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
