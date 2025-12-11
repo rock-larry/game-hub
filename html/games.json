@@ -1899,5 +1899,39 @@
         "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Hollow_Kight_SilkSong"
       }
     ]
+  },
+
+
+  {
+    "id": "DoomEt",
+    "title": "DOOM ETERNAL",
+    "description": "DOOM Eternal is a brutal, fast-paced first-person shooter made by id Software and published by Bethesda Softworks — the direct sequel to the 2016 “reboot” of the franchise. You play as the badass warrior known as the Doom Slayer, and Earth’s been overrun by demons. Your mission? Tear through hellspawn, across dimensions, and stop the apocalypse before humanity gets vaporized.  ",
+    "image": "../images/doomet.jpg",
+    "Re_system_requirements": [
+      "CPU: Core i7-11700K / Ryzen 7 3700X",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 3060 / Radeon RX 6600 XT 8GB",
+      "DEDICATED VIDEO RAM: 8192 MB",
+      "PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      "OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "Min_system_requirements": [
+      "CPU: Core i5-7600K / AMD Ryzen 5 1600",
+      "RAM: 16 GB",
+      "VIDEO CARD: GeForce RTX 2060 / Radeon RX 6600 6GB",
+      " DEDICATED VIDEO RAM: 6144 MB",
+      " PIXEL SHADER: 5.1",
+      "VERTEX SHADER: 5.1",
+      " OS: Windows 10/11 64-bit",
+      "FREE DISK SPACE: 90 GB"
+    ],
+    "download_links": [
+      {
+        "name": "Download",
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Doom_Eternal"
+      }
+    ]
   }
 ]
