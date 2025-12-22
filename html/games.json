@@ -1744,7 +1744,7 @@
     "id": "watchdogs1",
     "title": "Watch Dogs 1",
     "description": "Watch Dogs is an open-world action game set in Chicago, where you play as Aiden Pearce, a skilled hacker seeking justice after a family tragedy. Use the city’s ctOS system to hack cameras, traffic lights, phones, and more as you fight enemies and uncover a dangerous conspiracy.",
-    "image": "../images/watchdogs2.jpg",
+    "image": "../images/watchdogs1.jpg",
     "Re_system_requirements": [
       "CPU: Core i7-11700K / Ryzen 7 3700X",
       "RAM: 16 GB",
@@ -1768,7 +1768,7 @@
     "download_links": [
       {
         "name": "Download",
-        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Naruto_Ultimate_Ninja_Storm_4"
+        "url": "https://t.me/GrandTheftAuto3_Bot?start=game_Watch_Dogs_2"
       }
     ]
   },
